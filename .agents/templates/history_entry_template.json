@@ -1,0 +1,19 @@
+{
+  "id": "dvtt-20260907-001",
+  "title": "Schema-valid example title",
+  "folder": "schema-valid-example-title",
+  "date": "2026-09-07T18:30:00+07:00",
+  "type": "long",
+  "language": "vi",
+  "mode": "2",
+  "voiceStyle": "contemplative",
+  "aiModel": "agy",
+  "category": "buddhist_life",
+  "last_hook_pattern": 1,
+  "main_video_content": "Mẫu schema-valid này tóm tắt một bài pháp hoặc câu chuyện Phật giáo cụ thể, câu hỏi nó giải đáp, và con đường dẫn dắt chính. Thay thế bằng tóm tắt 2-3 câu thực tế của master script đã hoàn thành trước khi thêm entry.",
+  "youtube_status": "pending",
+  "youtube_video_id": null,
+  "capcut_created": false,
+  "capcut_created_at": null,
+  "created_at": "2026-09-07T18:30:00+07:00"
+}

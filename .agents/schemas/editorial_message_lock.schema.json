@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Runtime-only editorial intent lock for master_script.txt. Never copied into the final video folder.",
+  "title": "editorial message lock",
+  "type": "object",
+  "required": [
+    "topic",
+    "language",
+    "video_type",
+    "central_question",
+    "core_message",
+    "viewer_value",
+    "audience_assumption",
+    "key_revelations",
+    "epistemic_boundary",
+    "ending_takeaway"
+  ],
+  "properties": {
+    "topic": {"type": "string", "minLength": 3},
+    "language": {"type": "string", "enum": ["vi"]},
+    "video_type": {"type": "string", "enum": ["short", "long"]},
+    "central_question": {"type": "string", "minLength": 12, "maxLength": 320},
+    "core_message": {"type": "string", "minLength": 20, "maxLength": 420},
+    "viewer_value": {"type": "string", "minLength": 16, "maxLength": 420},
+    "audience_assumption": {"type": "string", "minLength": 12, "maxLength": 360},
+    "key_revelations": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 8,
+      "items": {"type": "string", "minLength": 12, "maxLength": 360}
+    },
+    "epistemic_boundary": {
+      "type": "object",
+      "required": ["known", "uncertain"],
+      "properties": {
+        "known": {"type": "string", "minLength": 10, "maxLength": 600},
+        "uncertain": {"type": "string", "minLength": 8, "maxLength": 600}
+      },
+      "additionalProperties": false
+    },
+    "ending_takeaway": {"type": "string", "minLength": 20, "maxLength": 420},
+    "do_not_overclaim": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {"type": "string", "minLength": 4, "maxLength": 240},
+      "default": []
+    }
+  },
+  "additionalProperties": false
+}

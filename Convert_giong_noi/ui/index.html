@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trạm AI OmniVoice - Quản lý Giọng mẫu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        card: '#1e293b',
+                        accent: '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    </style>
+</head>
+<body class="min-h-screen p-8">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl font-extrabold mb-2 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                🎙️ Trạm AI OmniVoice
+            </h1>
+            <p class="text-slate-400">Hệ thống Quản lý Giọng mẫu (Voice Cloning Box)</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Left: Upload Section -->
+            <section class="glass-panel rounded-2xl p-6 shadow-2xl flex flex-col">
+                <h2 class="text-xl font-bold mb-4 flex items-center gap-2">
+                    <span>📤</span> Thêm Giọng mẫu mới
+                </h2>
+                <div class="flex-1 flex items-center justify-center border-2 border-dashed border-slate-600 rounded-xl bg-slate-800/50 hover:bg-slate-800 transition-colors p-8 relative group cursor-pointer" id="drop-zone">
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mx-auto text-slate-400 mb-3 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+                        <p class="text-slate-300 font-medium mb-1">Kéo thả file âm thanh vào đây</p>
+                        <p class="text-slate-500 text-sm">Hỗ trợ: .mp3, .wav</p>
+                        <button class="mt-4 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium transition-colors" onclick="document.getElementById('file-input').click()">
+                            Chọn File từ máy
+                        </button>
+                    </div>
+                    <input type="file" id="file-input" class="hidden" accept=".mp3, .wav">
+                </div>
+                <!-- Progress & Status -->
+                <div id="upload-status" class="mt-4 hidden p-3 rounded-lg text-sm text-center font-medium"></div>
+            </section>
+
+            <!-- Right: List Section -->
+            <section class="glass-panel rounded-2xl p-6 shadow-2xl flex flex-col">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold flex items-center gap-2">
+                        <span>📁</span> Thư viện Giọng mẫu
+                    </h2>
+                    <button onclick="loadVoices()" class="text-slate-400 hover:text-white" title="Làm mới">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                    </button>
+                </div>
+                
+                <div class="flex-1 overflow-y-auto max-h-[400px] pr-2" id="voice-list">
+                    <!-- Skeletons while loading -->
+                    <div class="animate-pulse flex flex-col gap-3">
+                        <div class="h-16 bg-slate-700 rounded-xl w-full"></div>
+                        <div class="h-16 bg-slate-700 rounded-xl w-full"></div>
+                        <div class="h-16 bg-slate-700 rounded-xl w-full"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadVoices();
+            setupFileUpload();
+        });
+
+        async function loadVoices() {
+            const listEl = document.getElementById('voice-list');
+            try {
+                const res = await fetch('/api/voices');
+                const data = await res.json();
+                
+                if (data.status === 'success') {
+                    listEl.innerHTML = '';
+                    if (data.voices.length === 0) {
+                        listEl.innerHTML = '<div class="text-center text-slate-500 py-10">Chưa có giọng mẫu nào!</div>';
+                        return;
+                    }
+
+                    data.voices.forEach(voice => {
+                        const isDefault = voice.name === 'giong_doc.mp3';
+                        const el = document.createElement('div');
+                        el.className = `p-4 mb-3 rounded-xl border flex justify-between items-center transition-all ${isDefault ? 'bg-blue-900/20 border-blue-500/50' : 'bg-slate-800 border-slate-700 hover:border-slate-500'}`;
+                        
+                        el.innerHTML = `
+                            <div class="flex items-center gap-3 overflow-hidden">
+                                <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-lg shrink-0">
+                                    ${isDefault ? '⭐' : '👤'}
+                                </div>
+                                <div class="min-w-0">
+                                    <div class="font-bold text-slate-200 truncate" title="${voice.name}">${voice.name}</div>
+                                    <div class="text-xs text-slate-400">${(voice.size / 1024 / 1024).toFixed(2)} MB</div>
+                                </div>
+                            </div>
+                            <div class="flex gap-2 shrink-0">
+                                ${isDefault ? '<span class="text-xs px-2 py-1 bg-blue-600 rounded text-white font-medium">Mặc định</span>' : ''}
+                            </div>
+                        `;
+                        listEl.appendChild(el);
+                    });
+                }
+            } catch (err) {
+                listEl.innerHTML = '<div class="text-center text-red-400 py-10">Lỗi khi tải danh sách! Vui lòng đảm bảo Server đang chạy.</div>';
+            }
+        }
+
+        function setupFileUpload() {
+            const dropZone = document.getElementById('drop-zone');
+            const fileInput = document.getElementById('file-input');
+            const statusEl = document.getElementById('upload-status');
+
+            const handleFile = (file) => {
+                if (!file) return;
+                const validTypes = ['audio/mpeg', 'audio/wav', 'audio/x-wav'];
+                const validExts = ['.mp3', '.wav'];
+                const ext = file.name.substring(file.name.lastIndexOf('.')).toLowerCase();
+                
+                if (!validTypes.includes(file.type) && !validExts.includes(ext)) {
+                    showStatus('Chỉ chấp nhận file .mp3 hoặc .wav', 'error');
+                    return;
+                }
+                uploadFile(file);
+            };
+
+            fileInput.addEventListener('change', (e) => handleFile(e.target.files[0]));
+
+            dropZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropZone.classList.add('border-blue-400', 'bg-slate-800');
+            });
+
+            dropZone.addEventListener('dragleave', () => {
+                dropZone.classList.remove('border-blue-400', 'bg-slate-800');
+            });
+
+            dropZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropZone.classList.remove('border-blue-400', 'bg-slate-800');
+                if (e.dataTransfer.files.length) {
+                    handleFile(e.dataTransfer.files[0]);
+                }
+            });
+
+            async function uploadFile(file) {
+                const formData = new FormData();
+                formData.append('file', file);
+                
+                showStatus(`Đang tải lên: ${file.name}...`, 'loading');
+
+                try {
+                    const res = await fetch('/api/upload-voice', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const data = await res.json();
+                    
+                    if (res.ok && data.status === 'success') {
+                        showStatus('Tải lên thành công!', 'success');
+                        fileInput.value = ''; // reset
+                        loadVoices(); // refresh list
+                    } else {
+                        showStatus(data.message || 'Lỗi khi tải lên!', 'error');
+                    }
+                } catch (err) {
+                    showStatus('Lỗi kết nối tới Server!', 'error');
+                }
+            }
+
+            function showStatus(msg, type) {
+                statusEl.classList.remove('hidden', 'bg-red-500/20', 'text-red-400', 'bg-green-500/20', 'text-green-400', 'bg-blue-500/20', 'text-blue-400');
+                if (type === 'error') statusEl.classList.add('bg-red-500/20', 'text-red-400');
+                if (type === 'success') statusEl.classList.add('bg-green-500/20', 'text-green-400');
+                if (type === 'loading') statusEl.classList.add('bg-blue-500/20', 'text-blue-400');
+                statusEl.innerText = msg;
+                
+                if (type !== 'loading') {
+                    setTimeout(() => statusEl.classList.add('hidden'), 5000);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

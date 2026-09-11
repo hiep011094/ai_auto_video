@@ -1,0 +1,91 @@
+{
+  "story_anchor": "Replace this schema-valid example with a two-to-four sentence Buddhist video throughline that states the opening life/dharma question, the teaching or story path, and the final practical insight without changing doctrinal certainty.",
+  "characters": [
+    {
+      "name": "narrator",
+      "role": "anonymous off-screen narrator, never appears on camera",
+      "age_range": "N/A",
+      "appearance": "N/A — narrator is voice-only and never shown on screen",
+      "outfit": "N/A — narrator is voice-only and never shown on screen",
+      "aliases": [
+        "narrator"
+      ],
+      "era": "N/A"
+    }
+  ],
+  "locations": [
+    {
+      "name": "quiet Buddhist monastery courtyard",
+      "description": "weathered stone courtyard beside a modest traditional monastery, dark timber columns, clay roof tiles, one mature bodhi tree casting dappled shade, a low lotus pond at frame edge, warm natural earth colors, no modern signage",
+      "aliases": [
+        "monastery courtyard",
+        "temple courtyard"
+      ]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "bronze meditation bell",
+      "description": "small hand-cast bronze meditation bell with a gently aged patina, rounded shoulder, dark wooden striker, no engraved readable text or logos",
+      "aliases": [
+        "meditation bell",
+        "bronze bell"
+      ]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "premium cinematic Buddhist visual storytelling, mature semi-realistic 3D, warm amber tones, soft natural light, subtle film grain, high detail, physically grounded materials",
+    "color_grading": "Palette A (warm sacred amber, saffron, aged wood brown) for temple/monastery interiors; Palette B (soft gold, sage green, dew silver) for outdoor dawn; Palette C (deep forest green, bark brown, dappled gold) for forest/nature; Palette D (deep blue-grey, silver-white, distant amber) for night/moonlit scenes. Controlled contrast and physically plausible skin/material color throughout. See references/color_palette_system.md for full palette specifications."
+  },
+  "lighting_timeline": [
+    {
+      "stage": "opening",
+      "time_of_day": "early dawn",
+      "mood": "quiet curiosity and inward attention"
+    },
+    {
+      "stage": "body",
+      "time_of_day": "soft morning to warm afternoon",
+      "mood": "contemplative, humane and clear"
+    },
+    {
+      "stage": "ending",
+      "time_of_day": "golden hour",
+      "mood": "peaceful synthesis and gentle release"
+    }
+  ],
+  "camera_style": {
+    "lens": "35mm cinematic baseline; use 50mm or 85mm for intimate human gestures and 24mm only for spacious establishing views",
+    "movement_notes": "slow controlled dolly, restrained lateral tracking, gentle arcs, and stable locked-off inserts; no frantic handheld motion, whip pans, or impossible camera travel"
+  },
+  "negative_keywords": [
+    "watermark",
+    "text overlay",
+    "burned-in subtitles",
+    "logo",
+    "childish cartoon style",
+    "chibi proportions",
+    "oversized cartoon eyes",
+    "anime exaggeration",
+    "toy-like plastic CGI",
+    "flat 2D illustration",
+    "overly bright neon colors",
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "tools/schema_validator.py implements the project-used draft-07 subset: type, const, enum, required, properties, additionalProperties, items, minLength, maxLength, minimum, maximum, pattern, minItems, maxItems, uniqueItems, allOf with simple if/then.",
+  "title": "history.json entry",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "folder",
+    "date",
+    "type",
+    "language",
+    "mode",
+    "voiceStyle",
+    "aiModel",
+    "category",
+    "last_hook_pattern",
+    "main_video_content",
+    "youtube_status",
+    "capcut_created",
+    "created_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "folder": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "short",
+        "long"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "vi"
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "1",
+        "2"
+      ],
+      "description": "1 = Chiêm nghiệm/Suy ngẫm (contemplative), 2 = Kiến thức/Lịch sử (factual)"
+    },
+    "voiceStyle": {
+      "type": "string",
+      "enum": [
+        "contemplative"
+      ]
+    },
+    "aiModel": {
+      "type": "string",
+      "enum": [
+        "agy",
+        "codex"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "buddhist_life",
+        "buddhist_wisdom"
+      ],
+      "description": "REQUIRED for new entries. Active values are defined by 10_category_rotation.md and selected by tools/category_selector.py in auto mode or supplied/classified in manual mode."
+    },
+    "last_hook_pattern": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "main_video_content": {
+      "type": "string",
+      "minLength": 80,
+      "description": "2-3 sentence summary of the video script content (NOT a title copy). Must describe specific subject, angle, and key facts/claims. Primary signal for anti-duplication system."
+    },
+    "youtube_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "youtube_video_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "capcut_created": {
+      "type": "boolean"
+    },
+    "capcut_created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "language": {
+            "const": "vi"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "voiceStyle": {
+            "const": "contemplative"
+          }
+        }
+      }
+    }
+  ]
+}

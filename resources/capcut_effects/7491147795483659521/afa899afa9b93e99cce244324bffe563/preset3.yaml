@@ -1,0 +1,3 @@
+- effect: music_dsp_effect
+  chunk:
+    mdsp_preset: mdsp_preset.json

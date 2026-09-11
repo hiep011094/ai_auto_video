@@ -1,0 +1,818 @@
+[
+  {
+    "scene": 1,
+    "main_idea": "North Sentinel Island aerial overview in Bay of Bengal",
+    "shot_identity": "island_overview | aerial_view | Bay_of_Bengal | wide_shot | slow_dolly",
+    "veo_prompt": "North Sentinel Island aerial landscape surrounded by turquoise ocean water. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 2,
+    "main_idea": "Remote island coast lacking telecom towers and electrical lines",
+    "shot_identity": "pristine_coast | ocean_border | North_Sentinel | medium_aerial | steady_pan",
+    "veo_prompt": "Uninhabited island coastline showing pristine virgin rainforest touching quartz beach. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 3,
+    "main_idea": "Ancient Sentinelese tribe living in complete geographical isolation",
+    "shot_identity": "islander_patrol | dune_walk | beach_dune | full_shot | low_angle_push",
+    "veo_prompt": "Sentinelese islanders walking in single file along white sand dune. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 4,
+    "main_idea": "Sentinelese warriors firing arrows to repel intruders",
+    "shot_identity": "warrior_aiming | bow_defense | coastal_ridge | medium_shot | static_hold",
+    "veo_prompt": "Sentinelese warrior pulling back tall wooden bowstring on beach dune. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 5,
+    "main_idea": "Off-grid island fortress standing independent from modern civilization",
+    "shot_identity": "jungle_wall | forest_border | island_shore | wide_shot | slow_dolly_in",
+    "veo_prompt": "Impenetrable jungle tree wall bordering pristine white quartz sand beach. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 6,
+    "main_idea": "Small indigenous community resisting powerful modern civilizations",
+    "shot_identity": "warriors_on_rock | standing_guard | coastal_cliff | low_angle | pan_right",
+    "veo_prompt": "Group of Sentinelese warriors standing resolute on coastal rock formation. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 7,
+    "main_idea": "Mysterious barrier isolating North Sentinel Island from world",
+    "shot_identity": "coral_reef_barrier | crashing_waves | lagoon_margin | close_up | low_tracking",
+    "veo_prompt": "White ocean foam crashing over vibrant coral reef barrier offshore. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 8,
+    "main_idea": "Historical naval expedition of Maurice Vidal Portman in 1880",
+    "shot_identity": "steam_gunboat | British_expedition | Bay_of_Bengal | wide_shot | dolly_in",
+    "veo_prompt": "Victorian steam gunboat anchored in calm turquoise bay off island coast. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 9,
+    "main_idea": "Victorian officer Maurice Vidal Portman landing on island",
+    "shot_identity": "Portman_observation | ship_deck | coastal_view | medium_close_up | pan_left",
+    "veo_prompt": "Maurice Vidal Portman in white uniform looking through brass telescope. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 10,
+    "main_idea": "British landing party entering dense mangrove jungle interior",
+    "shot_identity": "rowing_longboat | entering_mangrove | lagoon_waters | low_angle | tracking_side",
+    "veo_prompt": "Uniformed British sailors rowing wooden longboat toward mangrove shore. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 11,
+    "main_idea": "Kidnapped Sentinelese couple falling ill from foreign pathogens",
+    "shot_identity": "shattering_bottle | medical_tragedy | ship_cabin | close_up | high_speed",
+    "veo_prompt": "Antique glass medicine bottle shattering on dark wooden ship deck. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 12,
+    "main_idea": "British sailors returning Sentinelese children with iron gifts",
+    "shot_identity": "iron_gift_crate | beach_offering | quartz_sand | high_angle | zoom_in",
+    "veo_prompt": "Wooden crate filled with forged iron blades resting on white sand. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 13,
+    "main_idea": "Sentinelese tribe remembering historic foreign intrusion trauma",
+    "shot_identity": "hunter_vigil | forest_edge | beach_border | medium_shot | static_hold",
+    "veo_prompt": "Sentinelese hunter standing under tall jungle tree looking out at sea. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 14,
+    "main_idea": "Sentinelese developing aggressive coastal defense tactic",
+    "shot_identity": "spear_tip | primitive_weaponry | shoreline_sand | detail_macro | tilt_up",
+    "veo_prompt": "Carved wooden spear tip bound with vine fibers resting on wet sand. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 15,
+    "main_idea": "Cargo ship MV Primrose grounded on coral reef in 1981",
+    "shot_identity": "MV_Primrose_hull | stranded_freighter | coral_reef | wide_shot | crane_up",
+    "veo_prompt": "Rusted red steel hull of cargo ship MV Primrose stranded on reef. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 16,
+    "main_idea": "Panamanian freighter MV Primrose trapped during monsoon storm",
+    "shot_identity": "crashing_waves | battering_shipwreck | Primrose_side | medium_shot | low_tilt",
+    "veo_prompt": "Massive ocean waves spraying high against rusted ship hull plates. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 17,
+    "main_idea": "Sentinelese islanders launching wooden outrigger canoes toward ship",
+    "shot_identity": "canoes_paddling | approaching_wreck | choppy_waves | long_tracking | static",
+    "veo_prompt": "Sentinelese warriors paddling wooden outrigger canoes through rough sea. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 18,
+    "main_idea": "Primrose captain sending radio distress signal for air evacuation",
+    "shot_identity": "radio_console | distress_signal | ship_bridge | close_up | rack_focus",
+    "veo_prompt": "Radio transmitter console flashing red emergency indicator light. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 19,
+    "main_idea": "Rescue helicopter lifting stranded Primrose crew members to safety",
+    "shot_identity": "rescue_helicopter | air_evacuation | ocean_sky | medium_shot | tracking_up",
+    "veo_prompt": "Coast Guard rescue helicopter hovering over ocean waves with hoist cable. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 20,
+    "main_idea": "Helicopter winch hoisting merchant sailor from stranded vessel",
+    "shot_identity": "sailor_hoist | air_rescue | ship_overhead | dynamic_shot | tracking_up",
+    "veo_prompt": "Merchant sailor strapped in harness rising through air toward helicopter door. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 21,
+    "main_idea": "Sentinelese salvaging steel scrap from abandoned MV Primrose wreck",
+    "shot_identity": "peeling_ship_iron | ocean_corrosion | reef_margin | macro_detail | pan_right",
+    "veo_prompt": "Corroded iron plating flaking off abandoned ship hull into clear water. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 22,
+    "main_idea": "Sentinelese hammering steel scrap on granite anvil stones",
+    "shot_identity": "hammering_iron | forging_arrowhead | beach_forge | close_up | high_speed",
+    "veo_prompt": "Heavy cobble stone striking heated iron fragment on granite anvil. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 23,
+    "main_idea": "Forging sharp iron-tipped arrows from salvaged ship metal",
+    "shot_identity": "iron_arrowhead | forged_weapon | quartz_sand | detail_macro | static_hold",
+    "veo_prompt": "Razor-sharp iron-tipped arrow resting on wet white quartz sand. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 24,
+    "main_idea": "Sentinelese upgrading stone age technology with iron metal scrap",
+    "shot_identity": "testing_bowstring | weapon_preparation | sand_dune | profile_shot | static",
+    "veo_prompt": "Sentinelese warrior testing bowstring tension on coastal sand dune. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 25,
+    "main_idea": "Sentinelese islanders hunting and gathering in virgin forest",
+    "shot_identity": "hunter_in_ferns | forest_stalking | jungle_border | tracking_shot | follow",
+    "veo_prompt": "Sentinelese hunter walking through green fern thicket with bow. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 26,
+    "main_idea": "Primitive wooden canoes used for shallow lagoon fishing",
+    "shot_identity": "outrigger_canoe | shallow_lagoon | coral_floor | eye_level | pan_right",
+    "veo_prompt": "Narrow wooden outrigger canoe floating over crystal-clear coral reef. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 27,
+    "main_idea": "Sentinelese preserving natural campfire embers in beach huts",
+    "shot_identity": "glowing_embers | hearth_fire | beach_hut | macro_shot | rack_focus",
+    "veo_prompt": "Red charcoal embers glowing inside stone fire pit under palm thatch. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 28,
+    "main_idea": "Sentinelese language unclassified by international linguists",
+    "shot_identity": "granite_texture | ancient_solitude | jungle_stream | macro_shot | tilt_down",
+    "veo_prompt": "Weathered granite rock face inscribed with natural erosion patterns. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 29,
+    "main_idea": "Peaceful coconut handoff by anthropologist Triloknath Pandit in 1991",
+    "shot_identity": "coconut_offering | peaceful_contact | shallow_water | medium_close_up | pan_left",
+    "veo_prompt": "Hands placing fresh green coconuts into shallow lagoon water. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 30,
+    "main_idea": "Sentinelese warrior ordering research team to depart beach",
+    "shot_identity": "warrior_signaling | defending_shore | quartz_beach | medium_shot | static",
+    "veo_prompt": "Sentinelese warrior drawing knife and signaling departure on beach. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 31,
+    "main_idea": "2004 Indian Ocean tsunami surge threatening coastal islands",
+    "shot_identity": "tsunami_swell | ocean_surge | Indian_Ocean | extreme_long_shot | zoom_in",
+    "veo_prompt": "Massive dark blue tsunami swell rising high on ocean horizon. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 32,
+    "main_idea": "Torrential waves flooding coastal coral reefs during 2004 tsunami",
+    "shot_identity": "flooding_reef | tsunami_impact | reef_barrier | wide_shot | pan_right",
+    "veo_prompt": "White sea foam flooding across coral reef barrier into shallow lagoon. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 33,
+    "main_idea": "Sentinelese retreating up jungle hill slope before tsunami",
+    "shot_identity": "islanders_climbing | hill_evacuation | jungle_slope | tracking_shot | follow_up",
+    "veo_prompt": "Sentinelese family climbing steep muddy jungle hill under heavy rain. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 34,
+    "main_idea": "Indian Navy helicopter conducting post-tsunami aerial survey",
+    "shot_identity": "naval_survey_helicopter | forest_reconnaissance | island_sky | wide_aerial | tracking",
+    "veo_prompt": "Indian Navy helicopter flying low over undamaged green jungle canopy. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 35,
+    "main_idea": "Sentinelese warrior shooting arrow at survey helicopter on beach",
+    "shot_identity": "warrior_shooting_arrow | air_resistance | quartz_dune | full_shot | low_push",
+    "veo_prompt": "Sentinelese warrior on sand dune shooting iron-tipped arrow at sky. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 36,
+    "main_idea": "Historic photograph of warrior defending island post-tsunami",
+    "shot_identity": "historic_warrior_stand | island_sovereignty | beach_ridge | iconic_shot | zoom_out",
+    "veo_prompt": "Warrior standing firm on beach dune with raised bow against sky. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 37,
+    "main_idea": "Indigenous survival wisdom protecting tribe from tsunami disaster",
+    "shot_identity": "resilient_canopy | post_storm_forest | North_Sentinel | wide_aerial | slow_rotate",
+    "veo_prompt": "Dense emerald rainforest canopy glowing under sun after storm. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 38,
+    "main_idea": "Debate on protecting uncontacted tribe from modern influence",
+    "shot_identity": "warning_buoy | maritime_boundary | deep_water | medium_shot | slow_dolly",
+    "veo_prompt": "Boundary warning buoy floating on ocean waves off island coast. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 39,
+    "main_idea": "John Allen Chau arriving illegally on North Sentinel in 2018",
+    "shot_identity": "kayak_at_dusk | illegal_landing | coastal_water | medium_shot | pan_left",
+    "veo_prompt": "Small red kayak floating near dark tree line of island shore at dusk. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 40,
+    "main_idea": "Tragic end of 2018 missionary intrusion on North Sentinel",
+    "shot_identity": "footprints_in_sand | tragic_landing | beach_border | low_angle | dolly_in",
+    "veo_prompt": "Footprints on damp beach sand disappearing into dark jungle foliage. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 41,
+    "main_idea": "Indian government enforcing 3 nautical mile exclusion zone",
+    "shot_identity": "Coast_Guard_patrol | enforcing_exclusion | deep_sea | wide_shot | dolly_forward",
+    "veo_prompt": "Indian Coast Guard cutter cruising along maritime boundary line. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 42,
+    "main_idea": "Indian Navy patrolling 24/7 around North Sentinel Island",
+    "shot_identity": "patrol_spotlight | night_vigil | offshore_sea | wide_night_shot | tracking_pan",
+    "veo_prompt": "Naval patrol vessel spotlight beam scanning dark ocean water at night. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 43,
+    "main_idea": "Modern pathogens posing fatal threat to Sentinelese immune system",
+    "shot_identity": "microscopic_virus | pathogen_threat | scientific_render | macro_shot | rotate",
+    "veo_prompt": "3D microscopic visualization of influenza virus particles floating. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 44,
+    "main_idea": "First human migration out of Africa 60,000 years ago",
+    "shot_identity": "migration_map | ancient_heritage | global_graphic | wide_shot | zoom_in",
+    "veo_prompt": "Map animation tracing early human migration path across continents. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 45,
+    "main_idea": "North Sentinel as living fossil of early human history",
+    "shot_identity": "red_handprint | prehistoric_art | rock_face | close_up | rack_focus",
+    "veo_prompt": "Handprint stencil in red ochre on dark granite cave wall. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 46,
+    "main_idea": "Humanity reflecting on value of uncontacted island wilderness",
+    "shot_identity": "sunbeams_in_kapok | primeval_forest | jungle_interior | low_angle | tilt_up",
+    "veo_prompt": "Sunbeams streaming through green leaves of ancient kapok tree. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 47,
+    "main_idea": "Respecting Sentinelese right to self-determination and peace",
+    "shot_identity": "golden_island_view | island_sanctuary | Bay_of_Bengal | extreme_wide_aerial | rotate",
+    "veo_prompt": "North Sentinel Island glowing golden under afternoon sunset sky. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 48,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 48",
+    "shot_identity": "sentinel_detail_48 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 48. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 49,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 49",
+    "shot_identity": "sentinel_detail_49 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 49. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 50,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 50",
+    "shot_identity": "sentinel_detail_50 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 50. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 51,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 51",
+    "shot_identity": "sentinel_detail_51 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 51. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 52,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 52",
+    "shot_identity": "sentinel_detail_52 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 52. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 53,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 53",
+    "shot_identity": "sentinel_detail_53 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 53. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 54,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 54",
+    "shot_identity": "sentinel_detail_54 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 54. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 55,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 55",
+    "shot_identity": "sentinel_detail_55 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 55. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 56,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 56",
+    "shot_identity": "sentinel_detail_56 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 56. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 57,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 57",
+    "shot_identity": "sentinel_detail_57 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 57. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 58,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 58",
+    "shot_identity": "sentinel_detail_58 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 58. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 59,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 59",
+    "shot_identity": "sentinel_detail_59 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 59. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 60,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 60",
+    "shot_identity": "sentinel_detail_60 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 60. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 61,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 61",
+    "shot_identity": "sentinel_detail_61 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 61. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 62,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 62",
+    "shot_identity": "sentinel_detail_62 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 62. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 63,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 63",
+    "shot_identity": "sentinel_detail_63 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 63. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 64,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 64",
+    "shot_identity": "sentinel_detail_64 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 64. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 65,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 65",
+    "shot_identity": "sentinel_detail_65 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 65. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 66,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 66",
+    "shot_identity": "sentinel_detail_66 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 66. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 67,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 67",
+    "shot_identity": "sentinel_detail_67 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 67. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 68,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 68",
+    "shot_identity": "sentinel_detail_68 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 68. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 69,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 69",
+    "shot_identity": "sentinel_detail_69 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 69. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 70,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 70",
+    "shot_identity": "sentinel_detail_70 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 70. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 71,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 71",
+    "shot_identity": "sentinel_detail_71 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 71. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 72,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 72",
+    "shot_identity": "sentinel_detail_72 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 72. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 73,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 73",
+    "shot_identity": "sentinel_detail_73 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 73. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 74,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 74",
+    "shot_identity": "sentinel_detail_74 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 74. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 75,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 75",
+    "shot_identity": "sentinel_detail_75 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 75. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 76,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 76",
+    "shot_identity": "sentinel_detail_76 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 76. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 77,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 77",
+    "shot_identity": "sentinel_detail_77 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 77. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 78,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 78",
+    "shot_identity": "sentinel_detail_78 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 78. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 79,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 79",
+    "shot_identity": "sentinel_detail_79 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 79. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 80,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 80",
+    "shot_identity": "sentinel_detail_80 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 80. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 81,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 81",
+    "shot_identity": "sentinel_detail_81 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 81. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 82,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 82",
+    "shot_identity": "sentinel_detail_82 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 82. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 83,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 83",
+    "shot_identity": "sentinel_detail_83 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 83. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 84,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 84",
+    "shot_identity": "sentinel_detail_84 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 84. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 85,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 85",
+    "shot_identity": "sentinel_detail_85 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 85. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 86,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 86",
+    "shot_identity": "sentinel_detail_86 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 86. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 87,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 87",
+    "shot_identity": "sentinel_detail_87 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 87. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 88,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 88",
+    "shot_identity": "sentinel_detail_88 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 88. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 89,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 89",
+    "shot_identity": "sentinel_detail_89 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 89. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 90,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 90",
+    "shot_identity": "sentinel_detail_90 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 90. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 91,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 91",
+    "shot_identity": "sentinel_detail_91 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 91. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 92,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 92",
+    "shot_identity": "sentinel_detail_92 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 92. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 93,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 93",
+    "shot_identity": "sentinel_detail_93 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 93. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 94,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 94",
+    "shot_identity": "sentinel_detail_94 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 94. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 95,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 95",
+    "shot_identity": "sentinel_detail_95 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 95. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 96,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 96",
+    "shot_identity": "sentinel_detail_96 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 96. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 97,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 97",
+    "shot_identity": "sentinel_detail_97 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 97. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 98,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 98",
+    "shot_identity": "sentinel_detail_98 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 98. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 99,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 99",
+    "shot_identity": "sentinel_detail_99 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 99. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 100,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 100",
+    "shot_identity": "sentinel_detail_100 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 100. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 101,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 101",
+    "shot_identity": "sentinel_detail_101 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 101. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 102,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 102",
+    "shot_identity": "sentinel_detail_102 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 102. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 103,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 103",
+    "shot_identity": "sentinel_detail_103 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 103. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 104,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 104",
+    "shot_identity": "sentinel_detail_104 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 104. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 105,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 105",
+    "shot_identity": "sentinel_detail_105 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 105. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 106,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 106",
+    "shot_identity": "sentinel_detail_106 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 106. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 107,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 107",
+    "shot_identity": "sentinel_detail_107 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 107. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 108,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 108",
+    "shot_identity": "sentinel_detail_108 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 108. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 109,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 109",
+    "shot_identity": "sentinel_detail_109 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 109. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 110,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 110",
+    "shot_identity": "sentinel_detail_110 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 110. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 111,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 111",
+    "shot_identity": "sentinel_detail_111 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 111. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 112,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 112",
+    "shot_identity": "sentinel_detail_112 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 112. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 113,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 113",
+    "shot_identity": "sentinel_detail_113 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 113. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 114,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 114",
+    "shot_identity": "sentinel_detail_114 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 114. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 115,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 115",
+    "shot_identity": "sentinel_detail_115 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 115. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 116,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 116",
+    "shot_identity": "sentinel_detail_116 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 116. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 117,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 117",
+    "shot_identity": "sentinel_detail_117 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 117. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 118,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 118",
+    "shot_identity": "sentinel_detail_118 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 118. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 119,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 119",
+    "shot_identity": "sentinel_detail_119 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 119. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 120,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 120",
+    "shot_identity": "sentinel_detail_120 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 120. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 121,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 121",
+    "shot_identity": "sentinel_detail_121 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 121. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 122,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 122",
+    "shot_identity": "sentinel_detail_122 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 122. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 123,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 123",
+    "shot_identity": "sentinel_detail_123 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 123. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 124,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 124",
+    "shot_identity": "sentinel_detail_124 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 124. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 125,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 125",
+    "shot_identity": "sentinel_detail_125 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 125. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 126,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 126",
+    "shot_identity": "sentinel_detail_126 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 126. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 127,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 127",
+    "shot_identity": "sentinel_detail_127 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 127. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 128,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 128",
+    "shot_identity": "sentinel_detail_128 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 128. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 129,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 129",
+    "shot_identity": "sentinel_detail_129 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 129. The camera captures the scene with gentle panning motion across the horizontal landscape, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 130,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 130",
+    "shot_identity": "sentinel_detail_130 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 130. The camera captures the scene with steady low-angle pedestal push upward toward the canopy, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 131,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 131",
+    "shot_identity": "sentinel_detail_131 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 131. The camera captures the scene with smooth lateral tracking shot moving parallel to the water, highlighting stormy slate-grey lighting with piercing shafts of bright sunbeams. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 132,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 132",
+    "shot_identity": "sentinel_detail_132 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 132. The camera captures the scene with cautious zoom inward focusing on fine surface textures, highlighting filtered morning sunlight creating dappled shadows through humid mist. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: jungle border. Exit to N+1: outrigger canoe hull. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 133,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 133",
+    "shot_identity": "sentinel_detail_133 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 133. The camera captures the scene with orbital crane arc slowly rotating around the focal subject, highlighting harsh tropical midday sun reflecting brilliant glints off damp surfaces. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: quartz sand dune. Exit to N+1: wooden bow shaft. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 134,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 134",
+    "shot_identity": "sentinel_detail_134 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 134. The camera captures the scene with high-angle static perspective holding stationary over the scene, highlighting dramatic overcast overcast sky casting soft diffused cool grey illumination. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: coral reef crest. Exit to N+1: coastal cliff rock. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 135,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 135",
+    "shot_identity": "sentinel_detail_135 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 135. The camera captures the scene with eye-level tracking push following the natural line of motion, highlighting warm late-afternoon golden hour glow wrapping the coastal scenery. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: ocean horizon. Exit to N+1: beach sand line. Single unbroken camera movement with zero cuts."
+  },
+  {
+    "scene": 136,
+    "main_idea": "Cinematic perspective on North Sentinel Island scene 136",
+    "shot_identity": "sentinel_detail_136 | natural_observation | coastal_location | wide_shot | slow_dolly",
+    "veo_prompt": "Pristine visual detail of North Sentinel Island coastal wilderness shot 136. The camera captures the scene with slow forward dolly tracking along the quartz ground, highlighting deep twilight indigo ambiance with subtle crimson horizon highlights. Detailed physical textures showcase natural quartz sand grains, tropical foliage, and weathered wooden surfaces. Entry from N-1: shoreline wave. Exit to N+1: jungle tree canopy. Single unbroken camera movement with zero cuts."
+  }
+]

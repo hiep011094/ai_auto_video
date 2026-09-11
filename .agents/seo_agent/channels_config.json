@@ -1,0 +1,72 @@
+{
+  "_comment": "YouTube channel configuration for OptimizeSEO agent — ĐƯỜNG VỀ TỈNH THỨC",
+  "channels": {
+    "vi": {
+      "name": "ĐƯỜNG VỀ TỈNH THỨC",
+      "handle": "@DuongVeTinhThuc-j8z",
+      "url": "https://www.youtube.com/@DuongVeTinhThuc-j8z",
+      "cta": "Hãy đăng ký kênh ĐƯỜNG VỀ TỈNH THỨC để cùng chiêm nghiệm trí tuệ Phật giáo mỗi ngày!",
+      "themes": [
+        "phat giao",
+        "phat phap",
+        "thien dinh",
+        "chanh niem",
+        "tri tue phat giao",
+        "duong ve tinh thuc"
+      ]
+    }
+  },
+  "youtube_limits": {
+    "title": {
+      "max": 100,
+      "ideal_min": 50,
+      "ideal_max": 70,
+      "mobile_truncate": 40
+    },
+    "description": {
+      "max": 5000,
+      "ideal_min": 300,
+      "ideal_max": 1000,
+      "above_fold": 125,
+      "unit": "utf8_bytes"
+    },
+    "keywords": {
+      "count_min": 15,
+      "count_max": 20,
+      "per_tag_recommended": 30,
+      "total_max": 500,
+      "total_counting": "commas count; tags containing spaces count as quoted"
+    },
+    "hashtags": {
+      "min": 3,
+      "max": 5,
+      "max_words_per_tag": 3
+    }
+  },
+  "forbidden_punctuation": [
+    "/",
+    "\\",
+    ":",
+    "'",
+    "\"",
+    "?",
+    "!",
+    "-",
+    "#",
+    "(",
+    ")",
+    "[",
+    "]",
+    "{",
+    "}"
+  ],
+  "spam_hashtags": [
+    "#fyp",
+    "#viral",
+    "#trending",
+    "#foryou",
+    "#youtube",
+    "#video",
+    "#subscribe"
+  ]
+}

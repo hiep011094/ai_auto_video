@@ -1,0 +1,141 @@
+{
+  "voices": [
+    {
+      "id": "multi_female_tianmeijieshuo_uranus_bigtts",
+      "resource_id": "7637460417295469832",
+      "name": "Sugar Velvet (Nhung ngọt ngào)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "multi_female_linjianv_uranus_bigtts",
+      "resource_id": "7637457275266911496",
+      "name": "Cozy Darling (Người thương ấm áp)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "multi_female_daqi_uranus_bigtts",
+      "resource_id": "7637451983389019409",
+      "name": "Graceful Agent (Đặc vụ thanh lịch)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "BV075_streaming",
+      "resource_id": "7102355803792740865",
+      "name": "Confident Male (Giọng nam trầm ấm)",
+      "language": "vi",
+      "gender": "male",
+      "platform": "sami"
+    },
+    {
+      "id": "BV421_vivn_streaming",
+      "resource_id": "7252594014782755330",
+      "name": "Nhỏ Ngọt Ngào (Giọng nữ dễ thương)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "vi_female_huong",
+      "resource_id": "7264854897953083905",
+      "name": "Giọng nữ phổ thông (Bắc)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "BV074_streaming",
+      "resource_id": "7102355709945188865",
+      "name": "Cô Gái Hoạt Ngôn (Giọng nữ)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "ICL_uranus_vi_male_qingxiunanhai",
+      "resource_id": "7652254612514180360",
+      "name": "Golden Boy (Nam thanh niên)",
+      "language": "vi",
+      "gender": "male",
+      "platform": "sami"
+    },
+    {
+      "id": "ICL_uranus_vi_female_xuemei",
+      "resource_id": "7652257336777542919",
+      "name": "Sweet Junior (Nữ dịu dàng)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "ICL_uranus_vi_male_zhiyunan",
+      "resource_id": "7652257230330416400",
+      "name": "Gentle Soul (Nam ấm áp)",
+      "language": "vi",
+      "gender": "male",
+      "platform": "sami"
+    },
+    {
+      "id": "BV074_streaming_dsp",
+      "resource_id": "7550087831092251920",
+      "name": "Viet Doll (Giọng bé gái)",
+      "language": "vi",
+      "gender": "child",
+      "platform": "sami"
+    },
+    {
+      "id": "vi-VN-HoaiMyNeural",
+      "resource_id": "7371666434650280464",
+      "name": "Hoài My (Giọng nữ ấm áp)",
+      "language": "vi",
+      "gender": "female",
+      "platform": "microsoft"
+    },
+    {
+      "id": "vi-VN-NamMinhNeural",
+      "resource_id": "7371666524727153168",
+      "name": "Nam Minh (Giọng nam trầm)",
+      "language": "vi",
+      "gender": "male",
+      "platform": "microsoft"
+    },
+    {
+      "id": "pNInz6obpgDQGcFmaJgB",
+      "resource_id": "7369525170723099153",
+      "name": "Adam (Giọng nam Mỹ trầm ấm)",
+      "language": "en",
+      "gender": "male",
+      "is_vip": true,
+      "platform": "11labs"
+    },
+    {
+      "id": "multi_male_simba_uranus_bigtts",
+      "resource_id": "7637461265362832660",
+      "name": "Royal Titan",
+      "language": "en",
+      "gender": "male",
+      "platform": "sami"
+    },
+    {
+      "id": "multi_female_xinwenjieshuo_uranus_bigtts",
+      "resource_id": "7637455039719640327",
+      "name": "Calm Host",
+      "language": "en",
+      "gender": "female",
+      "platform": "sami"
+    },
+    {
+      "id": "multi_female_zendaya_uranus_bigtts",
+      "resource_id": "7637459056524889362",
+      "name": "Assured Host",
+      "language": "en",
+      "gender": "female",
+      "platform": "sami"
+    }
+  ]
+}

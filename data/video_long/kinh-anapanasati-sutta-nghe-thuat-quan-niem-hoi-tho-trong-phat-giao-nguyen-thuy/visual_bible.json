@@ -1,0 +1,131 @@
+{
+  "story_anchor": "Bài kinh Anapanasati Sutta dẫn dắt người hành giả qua mười sáu tầng quán niệm hơi thở, từ nhận diện hơi thở thể lý, lắng dịu cảm thọ, thấu suốt tâm thức cho đến đỉnh cao tuệ giác giải thoát. Xuyên suốt video là hình ảnh thiền định trầm tĩnh giữa thiên nhiên và tu viện cổ sơ, nối kết lời dạy kinh điển với thực hành chánh niệm trong đời sống hiện đại. Toàn bộ hành trình kết tinh ở thông điệp: mỗi hơi thở tỉnh thức là chiếc mỏ neo vững chắc đưa tâm trở về ngôi nhà an lạc tự thân.",
+  "characters": [
+    {
+      "name": "Hành giả thiền định",
+      "role": "Nhà sư thiền tập đại diện cho hành giả Phật giáo Nguyên thủy",
+      "age_range": "35-45",
+      "appearance": "Shaved head, calm and focused facial features, gentle serene expression, balanced posture, olive-toned Southeast Asian complexion",
+      "outfit": "Traditional saffron Theravada monastic robes draped cleanly over the left shoulder, simple fabric texture, bare right arm",
+      "aliases": [
+        "Hành giả thiền định",
+        "Nhà sư thiền tập"
+      ]
+    },
+    {
+      "name": "Người cư sĩ hiện đại",
+      "role": "Cư sĩ ứng dụng chánh niệm trong đời sống thường nhật",
+      "age_range": "28-35",
+      "appearance": "Short neat dark hair, peaceful attentive eyes, relaxed facial expression, moderate build",
+      "outfit": "Modest earth-toned linen shirt and loose meditation trousers, neutral cream and beige colors, simple minimalist watch",
+      "aliases": [
+        "Người cư sĩ hiện đại",
+        "Cư sĩ hiện đại"
+      ]
+    },
+    {
+      "name": "Người dẫn chuyện",
+      "role": "Voiceover narrator, off-screen contemplative guide",
+      "age_range": "40-50",
+      "appearance": "N/A — never appears on camera, off-screen voiceover guide",
+      "outfit": "N/A — never appears on camera"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Tu viện Lộc Mẫu Pubbarama",
+      "description": "Ancient monastic grove in Savatthi, stone and aged timber open-air vihara pavilion surrounded by tall sal trees and bamboo, sunlit dust motes, quiet earthen courtyards, natural earthen tones",
+      "aliases": [
+        "Tu viện Lộc Mẫu Pubbarama",
+        "Đông Viên Pubbarama",
+        "Tịnh xá Pubbarama",
+        "Giảng đường Lộc Mẫu"
+      ]
+    },
+    {
+      "name": "Khu rừng tĩnh lặng",
+      "description": "Quiet ancient forest clearing with ancient banyan and bodhi roots, mossy stone ground, soft canopy dappling natural sunlight, gentle morning mist among tree trunks, deep emerald greens and earthy browns",
+      "aliases": [
+        "Khu rừng tĩnh lặng",
+        "Khu rừng thiền định"
+      ]
+    },
+    {
+      "name": "Phòng thiền tĩnh tâm đương đại",
+      "description": "Warm minimalist meditation room with smooth wooden floors, plain tatami or woven mat, sliding washi-style paper screen windows casting soft diffuse daylight, single earthenware vase with a lotus bud, clean warm beige and cedar tones",
+      "aliases": [
+        "Phòng thiền tĩnh tâm đương đại",
+        "Không gian thiền đương đại"
+      ]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "Ngọn đèn dầu đất nung",
+      "description": "Small hand-shaped terracotta clay lamp with steady warm golden flame, resting on weathered stone, casting amber glow",
+      "aliases": [
+        "Ngọn đèn dầu đất nung",
+        "Đèn dầu đất nung"
+      ]
+    },
+    {
+      "name": "Tọa cụ thiền định",
+      "description": "Firm round zafu cushion made of natural brown buckwheat fabric resting on a rectangular woven meditation mat",
+      "aliases": [
+        "Tọa cụ thiền định",
+        "Bồ đoàn thiền định"
+      ]
+    },
+    {
+      "name": "Hoa sen trắng",
+      "description": "Pronged fresh white lotus blossom in pure morning water, pristine petals with faint pale green tips, symbol of pure awakening",
+      "aliases": [
+        "Hoa sen trắng",
+        "Búp sen trắng",
+        "Đóa sen trắng"
+      ]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "premium cinematic Buddhist visual storytelling, mature semi-realistic 3D, warm amber tones, soft natural light, subtle film grain, high detail, physically grounded materials",
+    "color_grading": "Warm golden and natural amber for outdoor dawn and monastic courtyards; muted tranquil greens and soft diffuse grey for forest meditation; warm candlelit amber for interior evening contemplation"
+  },
+  "lighting_timeline": [
+    {
+      "stage": "opening (chapter 1-2)",
+      "time_of_day": "dawn to early morning",
+      "mood": "quiet reverence, gentle awakening, clear morning mist"
+    },
+    {
+      "stage": "body (chapter 3-6)",
+      "time_of_day": "morning to midday soft canopy light",
+      "mood": "deep contemplation, clarity, serene stillness"
+    },
+    {
+      "stage": "synthesis (chapter 7-8)",
+      "time_of_day": "late afternoon golden hour",
+      "mood": "warm luminous wisdom, expansive peace"
+    },
+    {
+      "stage": "ending (chapter 9)",
+      "time_of_day": "sunset to warm candlelit dusk",
+      "mood": "peaceful resolution, gentle inner homecoming"
+    }
+  ],
+  "camera_style": {
+    "lens": "35mm and 50mm cinematic anamorphic lenses with shallow depth of field and soft natural bokeh",
+    "movement_notes": "Slow meditative push-in dolly, gentle tracking shots along natural lines, stable static contemplation frames, smooth crane reveals through canopy"
+  },
+  "negative_keywords": [
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts, scene transitions, fades, dissolves, morph transitions, montage, time jumps, location changes, visual-domain changes",
+    "text, watermark, logo, subtitles, low quality, distorted anatomy, extra limbs, cartoonish, 2d animation"
+  ]
+}

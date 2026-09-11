@@ -1,0 +1,51 @@
+{
+  "release": "Production V10",
+  "package_name": ".agents_duong-ve-tinh-thuc_v10_longform_60kplus.zip",
+  "generated_at_vn": "2026-09-09T14:05:00+07:00",
+  "compatibility": {
+    "final_schema_changed_from_uploaded_package": false,
+    "schema_count": 8,
+    "schema_sha256": {
+      "schemas/chapter.schema.json": "ffb95a897b4f774bb6d1c3b0dfed152fbb5b9c9bfc1ba70aceeb152c5d6dc9ca",
+      "schemas/claim_evidence.schema.json": "f899019bd5061767eaebcac5745bed4b806a1b3c2d3bafe428a6915e84108b9b",
+      "schemas/editorial_message_lock.schema.json": "ac533ff933ad621bd6a4d2dead403526ab9fe63d5c48b3c6d1d3f455f568cfc9",
+      "schemas/history.schema.json": "7a3fb021e84bc3793f9118da2aff6b4f81db460c7c2cdb69d4e5650649d920e9",
+      "schemas/metadata.schema.json": "49361d79e180302c4aba7c9e2f14f3f07308e176311f9226179a61367db36d69",
+      "schemas/queue.schema.json": "c46abde1a3fd66f22cfee687458bf24fdef9b371dbec024a20e9724bfd8bdc69",
+      "schemas/topic_research.schema.json": "c69cf2cb61a907435639e746713cda7f13f092af06baa377e7c3a6ea8ccde7a8",
+      "schemas/visual_bible.schema.json": "9de04d6839e3320e9f7b163fa1a17f82a51e2b8aae8601e78af5c7800d71984f"
+    },
+    "data_contract_note": "All final JSON schema bytes remain unchanged; V10 changes only LONG script policy/validation and current release documentation."
+  },
+  "longform_policy": {
+    "hard_minimum_rule": "master_script.txt must be strictly more than 60000 Unicode characters for videoType=long",
+    "minimum_passing_characters": 60001,
+    "recommended_working_target_characters": 65000,
+    "maximum_characters": null,
+    "maximum_runtime": null,
+    "anti_padding": "The minimum cannot be satisfied through repetition, duplicated quotations/morals, generic filler, circular explanation, or redundant transitions.",
+    "topic_fit": "If the selected angle cannot truthfully sustain >60000 useful characters, broaden/reframe/reselect the topic before finalizing the script."
+  },
+  "unchanged_core_rules": [
+    "SHORT narration remains 900–1200 characters.",
+    "LONG Vietnamese scene splitting remains 20 words per scene except natural final remainder.",
+    "Final project fields/schemas are unchanged.",
+    "context_ref/sentence_id/part/continuity_ref/shot_type/veo_prompt contracts remain unchanged.",
+    "Final veo_prompt remains 900–4000 Unicode characters and one uninterrupted continuous visual setup."
+  ],
+  "enforcement": [
+    "tools/editorial_script_gate.py",
+    "tools/qa_automation.py"
+  ],
+  "validation": {
+    "regression_tests_total": 79,
+    "regression_tests_passed": 79,
+    "regression_test_modules": 8,
+    "regression_note": "All 8 pytest modules passed. test_v9_hardening.py was also rerun independently after the sequential shell harness hit its outer command timeout; it passed 15/15.",
+    "python_compile_status": "PASS",
+    "python_files_compiled": 41,
+    "schema_bytes_match_uploaded_package": "PASS 8/8",
+    "longform_boundary_tests": "PASS: 60000 fails; 60001 passes qa length gate; editorial gate explicitly rejects 60000",
+    "zip_integrity_status": "PASS"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "story_anchor": "Bộ phim tài liệu đưa người xem ngược dòng thời gian về đại học Nalanda cổ đại, cái nôi học thuật rực rỡ và biểu tượng của tinh thần khai phóng Phật giáo suốt tám thế kỷ. Từ khởi nguyên vườn xoài thanh tịnh đến tàng kinh các chín tầng Dharmaganja và những cuộc tranh biện triết học đỉnh cao, câu chuyện làm sống dậy nếp sống tu học mẫu mực của các bậc cao tăng như Giới Hiền và Huyền Trang. Khép lại bằng sự hồi sinh của những bức tường gạch đỏ từ lòng đất Bihar, tác phẩm khẳng định tri thức chân chính và tinh thần tự thắp đuốc là ngọn đèn bất diệt trong tâm thức nhân loại.",
+  "characters": [
+    {
+      "name": "Silabhadra",
+      "role": "venerable elder abbot and master of Yogacara",
+      "age_range": "late seventies",
+      "appearance": "elderly Buddhist monk, serene weathered face, calm compassionate dark eyes, shaved head, upright tranquil posture, generic fictional likeness",
+      "outfit": "draped saffron-ochre monk robes of coarse unbleached cotton, right shoulder exposed, simple wooden prayer bead bracelet on left wrist",
+      "aliases": [
+        "Silabhadra",
+        "Elder Abbot Silabhadra",
+        "Master Silabhadra"
+      ]
+    },
+    {
+      "name": "Xuanzang",
+      "role": "scholarly pilgrim monk from the East",
+      "age_range": "early thirties",
+      "appearance": "focused scholarly Buddhist monk, lean resilient build, observant thoughtful dark eyes, calm gentle expression, shaved head, generic fictional likeness",
+      "outfit": "traditional earth-brown travel-worn monastic robes bound with a humble woven sash, simple straw sandals, carrying a slender bamboo staff",
+      "aliases": [
+        "Xuanzang",
+        "Master Xuanzang",
+        "Pilgrim Xuanzang"
+      ]
+    },
+    {
+      "name": "Yijing",
+      "role": "diligent chronicler and pilgrim monk",
+      "age_range": "mid-thirties",
+      "appearance": "meticulous Buddhist monk, humble refined posture, attentive bright dark eyes, smooth serene visage, shaved head, generic fictional likeness",
+      "outfit": "simple draped ochre-grey Buddhist robes of humble weave, cloth wrist-cuffs, holding a polished dark ink stone and wooden stylus",
+      "aliases": [
+        "Yijing",
+        "Master Yijing",
+        "Pilgrim Yijing"
+      ]
+    },
+    {
+      "name": "Rahulasribhadra",
+      "role": "the last venerable ninety-year-old abbot remaining at Nalanda",
+      "age_range": "nineties",
+      "appearance": "frail yet spiritually resolute Buddhist monk, deeply wrinkled gentle face, clear unwavering dark eyes, shaved head, generic fictional likeness",
+      "outfit": "faded patched terracotta-hued monastic robe wrapped closely across shoulders, humble worn fabric",
+      "aliases": [
+        "Rahulasribhadra",
+        "Elder Rahulasribhadra"
+      ]
+    },
+    {
+      "name": "Resident Monastic Scholar",
+      "role": "resident student and debater",
+      "age_range": "mid-twenties",
+      "appearance": "generic young Buddhist scholar, serene concentrated facial expression, shaved head, healthy natural South Asian skin tone, generic fictional likeness",
+      "outfit": "clean draped saffron cotton robe with neat traditional folds over left shoulder, bare feet",
+      "aliases": [
+        "Resident Monastic Scholar",
+        "monastic scholar",
+        "young scholar monk"
+      ]
+    },
+    {
+      "name": "Gatekeeper Acarya",
+      "role": "scholarly gatekeeper testing entrance applicants",
+      "age_range": "fifties",
+      "appearance": "venerable senior scholar, sharp penetrating eyes, dignified composure, shaved head, generic fictional likeness",
+      "outfit": "dark ochre monastic mantle draped with formal pleats, holding a rolled birch-bark text",
+      "aliases": [
+        "Gatekeeper Acarya",
+        "Dvarapandita gatekeeper"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Nalanda Central Courtyard",
+      "description": "an expansive ancient university courtyard enclosed by majestic red-brick monasteries, red sandstone pavements, rows of monk meditation cells with arched openings, manicured stone drainage channels, and fragrant blooming mango trees casting dappled sunlight",
+      "aliases": [
+        "Nalanda Central Courtyard",
+        "central courtyard of Nalanda",
+        "Nalanda Mahavihara central courtyard"
+      ]
+    },
+    {
+      "name": "Dharmaganja Library Tower",
+      "description": "a monumental nine-storey red-brick library tower adorned with carved terracotta reliefs, tall arched open balconies, massive cedar bookshelves stacked with thousands of palm-leaf manuscripts wrapped in yellow silk, illuminated by soft amber oil lamps and floating dust motes",
+      "aliases": [
+        "Dharmaganja Library Tower",
+        "Ratnasagara library tower",
+        "Dharmaganja library complex"
+      ]
+    },
+    {
+      "name": "Temple 3 Sariputta Stupa",
+      "description": "a colossal tiered red-brick stupa complex rising in stepped terraces adorned with detailed stucco niches of seated Buddha silhouettes, wide brick staircases leading to elevated platforms overlooking the vast Bihar plains",
+      "aliases": [
+        "Temple 3 Sariputta Stupa",
+        "Temple 3 stupa terrace",
+        "Sariputta Stupa monument"
+      ]
+    },
+    {
+      "name": "Monastery Debate Hall",
+      "description": "a cavernous open-sided pavilion of monolithic granite pillars, polished terracotta tile floor, tiered brick seating platforms where hundreds of ochre-robed monks gather in respectful concentric circles under warm natural daylight",
+      "aliases": [
+        "Monastery Debate Hall",
+        "Nalanda debate hall"
+      ]
+    },
+    {
+      "name": "Nalanda Archaeological Ruins",
+      "description": "the serene archaeological site under soft morning light, exposed ancient red burnt-brick monastery walls, quiet grassy lawns stretching between excavated stone foundations, peaceful preservation monument under vast open sky",
+      "aliases": [
+        "Nalanda Archaeological Ruins",
+        "excavated ruins of Nalanda",
+        "Nalanda archaeological site"
+      ]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "Ancient Palm-Leaf Manuscript",
+      "description": "elongated dried palm leaves neatly incised with ancient Sanskrit Brahmi script, bound by cord threaded through central holes and protected between two lacquered wooden cover boards",
+      "aliases": [
+        "Ancient Palm-Leaf Manuscript",
+        "Pattra manuscript"
+      ]
+    },
+    {
+      "name": "Monastery Water Clepsydra",
+      "description": "a ceremonial perforated copper bowl floating in a clear stone water basin, measuring time continuously as water enters through a precise bottom orifice until sinking with a gentle gong strike",
+      "aliases": [
+        "Monastery Water Clepsydra",
+        "water clepsydra clock",
+        "Kharpatika water bowl"
+      ]
+    },
+    {
+      "name": "Terracotta Monastery Seal",
+      "description": "a rounded terracotta seal stamped with the canonical insignia of the Wheel of Dharma flanked by two couchant deer, bearing Sanskrit inscriptions in ornate post-Gupta script",
+      "aliases": [
+        "Terracotta Monastery Seal",
+        "Nalanda clay seal",
+        "terracotta seal of Nalanda"
+      ]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "premium cinematic Buddhist visual storytelling, mature semi-realistic 3D, warm amber tones, soft natural light, subtle film grain, high detail, physically grounded materials",
+    "color_grading": "warm amber and golden ochre for ancient monastery courtyards, soft candlelit bronze for library interior, muted earth and morning mist for modern excavated ruins"
+  },
+  "lighting_timeline": [
+    {
+      "stage": "opening and architectural dawn",
+      "time_of_day": "dawn",
+      "mood": "serene curiosity, gentle morning mist, soft golden horizon"
+    },
+    {
+      "stage": "scholarly life and debate",
+      "time_of_day": "morning to midday",
+      "mood": "warm, focused, luminous intellectual vitality under clear sky"
+    },
+    {
+      "stage": "library and sacred wisdom",
+      "time_of_day": "afternoon to dusk",
+      "mood": "contemplative, golden bronze, deep reverence, warm oil lantern glow"
+    },
+    {
+      "stage": "historical transition and ruins",
+      "time_of_day": "twilight to overcast grey",
+      "mood": "somber, historical weight, quiet resilience, atmospheric evening"
+    },
+    {
+      "stage": "archaeological dawn and eternal torch",
+      "time_of_day": "golden hour to eternal dawn",
+      "mood": "peaceful timeless awakening, uplifting clarity, radiant morning warmth"
+    }
+  ],
+  "camera_style": {
+    "lens": "35mm and 50mm spherical cinema lenses with natural optical compression and gentle shallow depth of field, 85mm for dignified medium portraits",
+    "movement_notes": "slow steady tracking, controlled majestic dolly-ins, serene locked-off framing, graceful low-angle pans honoring sacred architecture, no rapid whip pans or handheld jitter"
+  },
+  "negative_keywords": [
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes",
+    "watermark",
+    "text overlay",
+    "burned-in text",
+    "logo",
+    "childish cartoon",
+    "anime",
+    "3D render artifacts",
+    "flat illustration",
+    "anachronistic modern elements",
+    "motion blur distortion",
+    "plastic skin",
+    "oversaturated neon"
+  ]
+}

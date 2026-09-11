@@ -1,0 +1,10 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "SAMIAudioEffect"
+            }
+        ]
+    },
+    "version": "10.5.0"
+}

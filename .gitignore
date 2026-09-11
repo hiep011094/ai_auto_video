@@ -1,0 +1,93 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+.venv
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# media
+*.mp4
+
+*.srt
+
+# sensitive credentials and configurations
+/config/google_drive_credentials.json
+/config/google_sheets.json
+/config/capcut_headers.json
+/config/google_drive_folders.json
+
+# python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# agent runtime & scratch
+data/.agent_runtime/*
+!data/.agent_runtime/.gitkeep
+scratch/*
+!scratch/.gitkeep
+extracted_audio/*
+!extracted_audio/.gitkeep
+text_to_speech/output/*
+!text_to_speech/output/.gitkeep
+text_to_speech/__pycache__/
+
+# temporary & backup
+*.bak
+*.part
+*.tmp
+*.orig
+*~
+
+
+
+# Runtime credentials and operational locks
+/config/token.json
+/config/youtube_aip_key.json
+/config/*token*
+/config/*credentials*
+*.lock.tmp
+*.json.lock
+/database/operations/
+/data/.quality_receipts/
+/scratch/**
+!.env.example
+
+workers/
+data/.trash/

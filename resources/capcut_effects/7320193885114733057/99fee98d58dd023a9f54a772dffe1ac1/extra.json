@@ -1,0 +1,14 @@
+{
+    "setting": {
+        "audio_effect_parameters_change": [
+            {
+                "parameterIndex": 0,
+                "portIndex":0,
+                "sliderName":"Intensity",
+                "minValue":0.0,
+                "defaultValue":1.0,
+                "maxValue":1.0
+            }
+        ]
+    }
+}

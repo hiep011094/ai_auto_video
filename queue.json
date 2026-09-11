@@ -1,0 +1,34 @@
+[
+  {
+    "topic": "Kinh Anapanasati Sutta: Nghệ Thuật Quán Niệm Hơi Thở Trong Phật Giáo Nguyên Thủy",
+    "videoType": "long",
+    "mode": "2",
+    "generationMethod": "auto",
+    "language": "vi",
+    "voiceStyle": "contemplative",
+    "aiModel": "agy",
+    "id": "d7cffd3d-0371-4c87-8732-4bf6a9f51b04",
+    "status": "completed",
+    "retryCount": 0,
+    "progress": 100,
+    "createdAt": "2026-09-10T08:23:14.428+07:00",
+    "updatedAt": "2026-09-10T14:22:22.000+07:00",
+    "category": "buddhist_life",
+    "outputFolder": "kinh-anapanasati-sutta-nghe-thuat-quan-niem-hoi-tho-trong-phat-giao-nguyen-thuy"
+  },
+  {
+    "topic": "[Tự động chọn chủ đề Phật giáo]",
+    "videoType": "long",
+    "mode": "2",
+    "generationMethod": "auto",
+    "language": "vi",
+    "voiceStyle": "contemplative",
+    "aiModel": "agy",
+    "id": "61911049-cb1e-4f43-b29f-e1afbd3decb6",
+    "status": "pending",
+    "retryCount": 0,
+    "progress": 0,
+    "createdAt": "2026-09-11T15:02:24.283+07:00",
+    "updatedAt": "2026-09-11T15:02:24.283+07:00"
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "tools/schema_validator.py implements the project-used draft-07 subset: type, const, enum, required, properties, additionalProperties, items, minLength, maxLength, minimum, maximum, pattern, minItems, maxItems, uniqueItems, allOf with simple if/then.",
+  "title": "queue.json task",
+  "type": "object",
+  "required": [
+    "videoType",
+    "generationMethod",
+    "language",
+    "mode",
+    "voiceStyle",
+    "aiModel"
+  ],
+  "properties": {
+    "videoType": {
+      "type": "string",
+      "enum": [
+        "short",
+        "long"
+      ]
+    },
+    "generationMethod": {
+      "type": "string",
+      "enum": [
+        "auto",
+        "manual"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "vi"
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "1",
+        "2"
+      ],
+      "description": "1 = Chiêm nghiệm/Suy ngẫm (contemplative), 2 = Kiến thức/Lịch sử (factual)"
+    },
+    "voiceStyle": {
+      "type": "string",
+      "enum": [
+        "contemplative"
+      ]
+    },
+    "aiModel": {
+      "type": "string",
+      "enum": [
+        "agy",
+        "codex"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "buddhist_life",
+        "buddhist_wisdom"
+      ],
+      "description": "Optional manual override. Must be one of the ACTIVE categories in 10_category_rotation.md. For auto mode, leave unset and let tools/category_selector.py select it."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "generationMethod": {
+            "const": "manual"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "topic"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "language": {
+            "const": "vi"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "voiceStyle": {
+            "const": "contemplative"
+          }
+        }
+      }
+    }
+  ]
+}

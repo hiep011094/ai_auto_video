@@ -1,0 +1,355 @@
+{
+   "connections":[
+      {
+         "downstream_node_id":"compressor",
+         "downstream_port_index":0,
+         "port_type":"audio",
+         "upstream_node_id":"eq",
+         "upstream_port_index":0
+      },
+      {
+         "downstream_node_id":"eq",
+         "downstream_port_index":0,
+         "port_type":"audio",
+         "upstream_node_id":"pitch_and_formant_shift",
+         "upstream_port_index":0
+      },
+      {
+         "downstream_node_id":"limiter",
+         "downstream_port_index":0,
+         "port_type":"audio",
+         "upstream_node_id":"compressor",
+         "upstream_port_index":0
+      },
+      {
+         "downstream_node_id":"parameter_change_transform",
+         "downstream_port_index":0,
+         "port_type":"parameter_change",
+         "upstream_node_id":"parameter_change",
+         "upstream_port_index":0
+      },
+      {
+         "downstream_node_id":"pitch_and_formant_shift",
+         "downstream_port_index":0,
+         "port_type":"parameter_change",
+         "upstream_node_id":"parameter_change_transform",
+         "upstream_port_index":0
+      }
+   ],
+   "node_id":"unknown",
+   "node_type":"graph_container_node",
+   "nodes":[
+      {
+         "node_id":"compressor",
+         "node_type":"processor_node",
+         "processor_audio_buses_configuration":{
+            "inputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               },
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":false
+               }
+            ],
+            "outputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ]
+         },
+         "processor_name":"Compressor",
+         "processor_state":{
+             "parameters": {
+                 "Attack": 0.2499999850988388,
+                 "Auto Makeup Gain": true,
+                 "Bypass": false,
+                 "Knee dB": 10.849883079528809,
+                 "Lookahead": 0.0,
+                 "Output Gain dB": 0.0,
+                 "Ratio": 4.0,
+                 "Release": 100.0,
+                 "Sidechain Audition": false,
+                 "Sidechain Filter Cutoff Frequency": 1000.0,
+                 "Sidechain Filter Enabled": false,
+                 "Sidechain Filter Mode": "LowPass",
+                 "Sidechain Filter Resonance": 1.0000001192092896,
+                 "Threshold dB": 0.0,
+                 "Use External Sidechain": false
+             },
+            "version":"14.0.1"
+         },
+         "version":"14.0.1"
+      },
+      {
+         "node_id":"eq",
+         "node_type":"processor_node",
+         "processor_audio_buses_configuration":{
+            "inputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ],
+            "outputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ]
+         },
+         "processor_name":"Equaliser",
+         "processor_state":{
+                "parameters": {
+                    "Filter 1 Bypass": true,
+                    "Filter 1 Freq": 449.9999694824219,
+                    "Filter 1 Gain dB": 0.4143810272216797,
+                    "Filter 1 Mode": "Bell",
+                    "Filter 1 Q": 1.808302879333496,
+                    "Filter 2 Bypass": false,
+                    "Filter 2 Freq": 100.00001525878906,
+                    "Filter 2 Gain dB": -1.146646499633789,
+                    "Filter 2 Mode": "Bell",
+                    "Filter 2 Q": 1.351652979850769,
+                    "Filter 3 Bypass": false,
+                    "Filter 3 Freq": 1500.000244140625,
+                    "Filter 3 Gain dB": 2.1713027954101562,
+                    "Filter 3 Mode": "Bell",
+                    "Filter 3 Q": 0.5430160164833069,
+                    "Filter 4 Bypass": false,
+                    "Filter 4 Freq": 2999.999755859375,
+                    "Filter 4 Gain dB": 3.063108444213867,
+                    "Filter 4 Mode": "Bell",
+                    "Filter 4 Q": 3.430128574371338,
+                    "Filter 5 Bypass": false,
+                    "Filter 5 Freq": 7000.00048828125,
+                    "Filter 5 Gain dB": -5.360330581665039,
+                    "Filter 5 Mode": "Bell",
+                    "Filter 5 Q": 7.256478309631348,
+                    "Filter 6 Bypass": true,
+                    "Filter 6 Freq": 2000.000244140625,
+                    "Filter 6 Gain dB": 0.0,
+                    "Filter 6 Mode": "Bell",
+                    "Filter 6 Q": 1.0000001192092896,
+                    "Filter 7 Bypass": true,
+                    "Filter 7 Freq": 3999.99951171875,
+                    "Filter 7 Gain dB": 0.0,
+                    "Filter 7 Mode": "Bell",
+                    "Filter 7 Q": 1.0000001192092896,
+                    "Filter 8 Bypass": true,
+                    "Filter 8 Freq": 8000.00244140625,
+                    "Filter 8 Gain dB": 0.0,
+                    "Filter 8 Mode": "Bell",
+                    "Filter 8 Q": 1.0000001192092896,
+                    "Gain dB": -1.0
+                },
+            "version":"14.0.1"
+         },
+         "version":"14.0.1"
+      },
+      {
+         "node_id":"limiter",
+         "node_type":"processor_node",
+         "processor_audio_buses_configuration":{
+            "inputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ],
+            "outputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ]
+         },
+         "processor_name":"Limiter",
+         "processor_state":{
+            "parameters":{
+               "Audition Unity Gain":false,
+               "Bypass":false,
+               "Ceiling dB":-1.0,
+               "Input Gain dB":0.0,
+               "Lookahead":0.0,
+               "Release":250.0
+            },
+            "version":"14.0.1"
+         },
+         "version":"14.0.1"
+      },
+      {
+         "node_id":"parameter_change",
+         "node_type":"processor_node",
+         "processor_audio_buses_configuration":{
+            "inputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ],
+            "outputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ]
+         },
+         "processor_name":"Through",
+         "processor_state":{
+            "audio_buses":{
+               "inputs":[
+                  [
+                     "Mono",
+                     "Stereo"
+                  ]
+               ],
+               "outputs":[
+                  [
+                     "Mono",
+                     "Stereo"
+                  ]
+               ]
+            },
+            "parameters":{
+               
+            },
+            "version":"14.0.1"
+         },
+         "version":"14.0.1"
+      },
+      {
+         "node_id":"parameter_change_transform",
+         "node_type":"processor_node",
+         "processor_audio_buses_configuration":{
+            "inputs":[
+               
+            ],
+            "outputs":[
+               
+            ]
+         },
+         "processor_name":"ParameterChangeTransform",
+         "processor_state":{
+            "transforms":[
+               {
+                  "input_parameter_index":0,
+                  "transforms":[
+                     {
+                        "output_parameter_index":0,
+                        "transform_curve":[
+                           [
+                              0.0,
+                              0.5
+                           ],
+                           [
+                              1.0,
+                              0.5208
+                           ]
+                        ]
+                     },
+                     {
+                        "output_parameter_index":1,
+                        "transform_curve":[
+                           [
+                              0.0,
+                              0.5
+                           ],
+                           [
+                              1.0,
+                              0.5626
+                           ]
+                        ]
+                     },
+                     {
+                        "output_parameter_index":2,
+                        "transform_curve":[
+                           [
+                              0.0,
+                              0.5
+                           ],
+                           [
+                              1.0,
+                              0.5417
+                           ]
+                        ]
+                     },
+                     {
+                        "output_parameter_index":3,
+                        "transform_curve":[
+                           [
+                              0.0,
+                              0.5
+                           ],
+                           [
+                              1.0,
+                              0.6046
+                           ]
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "version":"14.0.1"
+         },
+         "version":"14.0.1"
+      },
+      {
+         "node_id":"pitch_and_formant_shift",
+         "node_type":"processor_node",
+         "processor_audio_buses_configuration":{
+            "inputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ],
+            "outputs":[
+               {
+                  "audio_channels_layout":"Stereo",
+                  "is_active":true
+               }
+            ]
+         },
+         "processor_name":"PitchAndFormantShift",
+         "processor_state":{
+             "parameters": {
+                 "Formant Fine Tune": 0.2091693878173828,
+                 "Formant Shift Semitone": 2,
+                 "Pitch Shift Fine Tune": 0.125166654586792,
+                 "Pitch Shift Semitone": 1,
+                 "Vibrato Depth Semitones": 0.0,
+                 "Vibrato Frequency": 0.10000000149011612
+             },
+            "version":"14.0.1"
+         },
+         "version":"14.0.1"
+      }
+   ],
+   "ports":[
+      {
+         "internal_node_id":"pitch_and_formant_shift",
+         "internal_node_port_index":0,
+         "port_direction":"input",
+         "port_index":0,
+         "port_type":"audio"
+      },
+      {
+         "internal_node_id":"parameter_change",
+         "internal_node_port_index":0,
+         "port_direction":"input",
+         "port_index":0,
+         "port_type":"parameter_change"
+      },
+      {
+         "internal_node_id":"limiter",
+         "internal_node_port_index":0,
+         "port_direction":"output",
+         "port_index":0,
+         "port_type":"audio"
+      }
+   ],
+   "version":"14.0.1"
+}

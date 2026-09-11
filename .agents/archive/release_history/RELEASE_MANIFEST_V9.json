@@ -1,0 +1,124 @@
+{
+  "release": "Production V9",
+  "package_name": ".agents_duong-ve-tinh-thuc_v9_longform.zip",
+  "generated_at_vn": "2026-09-09T11:40:00+07:00",
+  "compatibility": {
+    "final_schema_changed_from_v8": false,
+    "schema_count": 8,
+    "schema_sha256": {
+      "schemas/chapter.schema.json": "ffb95a897b4f774bb6d1c3b0dfed152fbb5b9c9bfc1ba70aceeb152c5d6dc9ca",
+      "schemas/claim_evidence.schema.json": "f899019bd5061767eaebcac5745bed4b806a1b3c2d3bafe428a6915e84108b9b",
+      "schemas/editorial_message_lock.schema.json": "ac533ff933ad621bd6a4d2dead403526ab9fe63d5c48b3c6d1d3f455f568cfc9",
+      "schemas/history.schema.json": "7a3fb021e84bc3793f9118da2aff6b4f81db460c7c2cdb69d4e5650649d920e9",
+      "schemas/metadata.schema.json": "49361d79e180302c4aba7c9e2f14f3f07308e176311f9226179a61367db36d69",
+      "schemas/queue.schema.json": "c46abde1a3fd66f22cfee687458bf24fdef9b371dbec024a20e9724bfd8bdc69",
+      "schemas/topic_research.schema.json": "c69cf2cb61a907435639e746713cda7f13f092af06baa377e7c3a6ea8ccde7a8",
+      "schemas/visual_bible.schema.json": "9de04d6839e3320e9f7b163fa1a17f82a51e2b8aae8601e78af5c7800d71984f"
+    }
+  },
+  "validation": {
+    "regression_tests_total": 77,
+    "regression_tests_passed": 77,
+    "regression_test_modules": 8,
+    "python_compile_status": "PASS",
+    "python_files_compiled": 41,
+    "zip_integrity_status": "PASS (verified after packaging)"
+  },
+  "optimization_pass_2026_08_29": {
+    "removed_unused_or_risky": [
+      "tests/verify_capcut_draft.py (hardcoded personal path, not a pytest test, never referenced)",
+      "tools/sync_data_to_history.py (unreferenced; bypassed the Step 11 main_video_content hard rule with a weak auto-summary, risking silent data-quality/duplicate-detection damage)",
+      "tools/check_data_completeness.py (unreferenced ad-hoc diagnostic; superseded by tools/category_dashboard.py)",
+      "NOTE_ASPECT_RATIO.md (fully duplicated by 05_visual_bible_guide.md, 03_data_schemas.md, and schemas/visual_bible.schema.json)",
+      "QUICK_START.md (stale onboarding doc: missing V9 category rotation, missing Claim Evidence Lock detail, missing the OptimizeSEO skill; superseded by AGENTS.md + 01_workflow.md)"
+    ],
+    "archived_not_deleted": [
+      "PRODUCTION_V3_RELEASE.md -> archive/release_history/",
+      "PRODUCTION_V7_RELEASE.md -> archive/release_history/",
+      "PRODUCTION_V8_RELEASE.md -> archive/release_history/",
+      "OPTIMIZATION_AUDIT.md -> archive/release_history/",
+      "CATEGORY_DEFINITIONS_EXPANDED.md -> archive/superseded_reference/ (non-authoritative; 10_category_rotation.md is the loaded source of truth)"
+    ],
+    "kept_intentionally_out_of_pipeline": [
+      "tools/category_dashboard.py (human-facing read-only reporting, reuses category_selector.py/category_balance_checker.py logic so it can never disagree with the real pipeline)",
+      "tools/migrate_add_category.py (explicit one-time legacy-data migration, self-documented as outside 01_workflow.md)",
+      "tools/migrate_backfill_mvc.py (explicit one-time legacy-data migration, self-documented as outside 01_workflow.md)"
+    ],
+    "verification": "75/75 pytest passed and all remaining .py files compiled clean after removal"
+  },
+  "performance_pass_2026_08_29": {
+    "goal": "Reduce redundant CPU/IO work without changing any final data schema, field, tool output, CLI contract, or gate decision. Verified by full regression suite before and after (75/75 pass both times) plus byte-identical schema SHA-256.",
+    "changes": [
+      "tools/qa_automation.py: load_all_scenes() and visual_bible.json reads were re-parsed from disk on every one of the ~20-30 independent checks run per qa_automation.py invocation (chapter files re-read up to 17x, visual_bible.json up to 5x). Added an mtime+size-keyed in-process cache so repeated reads of unchanged files are free, while any on-disk change (e.g. a re-run mid-pipeline) still forces a fresh read. No check mutates the returned data, so this is output-identical.",
+      "tools/similarity_engine.py: normalize_text() replaced a ~90-entry sequential .replace() loop with a single str.translate() pass; normalize_text/extract_keywords/make_trigrams/extract_entities memoized via lru_cache since the same title/content text is renormalized/re-extracted by multiple independent similarity signals per history entry per scan.",
+      "tools/semantic_concepts.py: concepts() previously rebuilt norm(phrase) and a fresh regex for all ~189 canonical phrases on every call; phrase normalization + regex compilation is now precomputed once at module import, and concepts()/norm() are memoized.",
+      "Benchmark (3,000 synthetic history entries, VI/long lane): similarity scan ~1.56s cold, ~0.08s on a warm cache for a second scan in the same process (duplicate-topic checking scans multiple candidate phrasings per session).",
+      "Removed dead/unused code found by pyflakes across 7 files (unused imports, unused local variables, f-strings with no interpolation) — zero behavior change, confirmed by unchanged test results.",
+      "Normalized mixed CRLF/LF line endings to LF across 16 files for repository consistency; verified no code depended on literal \\r\\n bytes."
+    ],
+    "not_changed": [
+      "All 8 schemas/*.schema.json (byte-identical, SHA-256 reverified)",
+      "All CLI flags, exit codes, printed PASS/FAIL/WARN messages, and gate thresholds",
+      "All final project JSON field names/shapes (queue.json, history.json, metadata.json, visual_bible.json, chapter_*.json, master_script.txt)"
+    ],
+    "verification": "75/75 pytest passed via tools/run_regression_suite.py before and after every change; all .py files compile clean; schema SHA-256 set unchanged from the value already recorded in this manifest's compatibility block."
+  },
+  "independent_audit_pass_2026_08_29b": {
+    "goal": "Independent verification of the two prior optimization passes plus a fresh sweep for shipped junk, doc redundancy, and residual token bloat, with zero change to any final schema/CLI/gate behavior.",
+    "verified_claims": [
+      "Re-ran tools/run_regression_suite.py from a clean checkout: 75/75 pytest still pass.",
+      "Re-ran pyflakes across tools/: only 2 findings, both false positives (audio_timeline_aligner.py imports whisper/torch solely to probe availability before re-exec into a .venv).",
+      "Confirmed all 8 schemas/*.schema.json remain byte-identical (SHA-256 unchanged)."
+    ],
+    "found_and_fixed": [
+      "Removed tools/__pycache__/ and tests/__pycache__/ (38 stale .pyc files, ~970KB) that had been packaged into the shipped zip; these are build artifacts, not source, and risk staleness if ever executed directly.",
+      "Consolidated seo_agent/README.md, seo_agent/START_HERE.md, seo_agent/AGENT_DEFINITION.md (4 overlapping entry docs incl. skills/OptimizeSEO/SKILL.md, ~90% duplicate wording, 3 separate copies of the same platform caps) down to one short seo_agent/README.md that points to skills/OptimizeSEO/SKILL.md as the single source of truth. Updated tests/test_contract_integrity.py's drift guard to match. This removes a second/third place the SEO contract could silently drift out of sync with the Skill.",
+      "Normalized the remaining 24 files still using CRLF line endings to LF (the prior performance_pass only covered 16 files); reverified every JSON file still parses and the full regression suite still passes 75/75."
+    ],
+    "not_changed": [
+      "01-17 step guides, AGENTS.md, 00_runtime_contract.md content/structure (already lazy-loaded, already separated by workflow stage, no redundancy found there)",
+      "All tool logic, CLI flags, exit codes, gate thresholds",
+      "All final project JSON field names/shapes"
+    ],
+    "verification": "75/75 pytest passed after cleanup; all JSON files re-validated as parseable; schema SHA-256 set unchanged."
+  },
+  "manifest_correction_2026_08_29c": {
+    "goal": "Correct schema_sha256 values in the compatibility block, which an independent external review found did not match the actual bytes of the 8 schemas/*.schema.json files shipped in this package (0/8 matched; no CRLF/BOM cause found).",
+    "root_cause": "The 'byte-identical / SHA-256 reverified / SHA-256 unchanged' claims in performance_pass_2026_08_29 and independent_audit_pass_2026_08_29b compared the schema files against each other across passes, but the recorded schema_sha256 values in this manifest were never re-derived from the actual on-disk files at packaging time, so they drifted from the real bytes without any check catching it.",
+    "fix": "Recomputed SHA-256 for all 8 schemas/*.schema.json files directly from the package contents and replaced the compatibility.schema_sha256 values with those actual digests.",
+    "note": "This is a documentation/audit-trail correction only. No tool under tools/ reads RELEASE_MANIFEST_V9.json at runtime (grep-verified), so this discrepancy never affected pipeline behavior. The 'unchanged since V8' intent of the prior passes is very likely still true in substance; what was wrong was the recorded digest, not the schema content itself.",
+    "recommendation": "Automate schema_sha256 (re)computation as a packaging step (e.g. in run_regression_suite.py or a release script) so this value can never again go stale relative to the shipped files."
+  },
+  "hardening": [
+    "public-source and SSRF hardening",
+    "semantic evidence-content grounding with hash-bound receipts",
+    "multilingual global-first duplicate retrieval",
+    "topic freshness validation",
+    "strict semantic result type validation",
+    "independent editorial semantic QA with hash-bound receipt",
+    "scene boundary semantic-bridge runtime signal",
+    "batch-relevant claim compaction",
+    "token-efficient Veo core contract",
+    "documentation/schema contract synchronization"
+  ],
+  "buddhist_longform_pass_2026_09_09": {
+    "goal": "Optimize the complete agent package for ĐƯỜNG VỀ TỈNH THỨC while preserving every final data schema and removing arbitrary LONG-script duration limits.",
+    "final_data_contract": "UNCHANGED — all 8 schemas/*.schema.json are byte-identical to the uploaded package.",
+    "changes": [
+      "LONG master_script has no fixed minimum/maximum character count or runtime target; duration is determined by truthful topic completeness.",
+      "qa_automation.py and editorial_script_gate.py no longer reject LONG scripts for exceeding 20,000 characters; SHORT remains 900–1,200 characters.",
+      "Long-form completeness contract now requires doctrinal/source provenance, context, terminology, explanation, stories/examples, nuance, practical application, and synthesis where relevant, while explicitly banning filler and repetition.",
+      "Channel visual identity locked to premium cinematic Buddhist visual storytelling with mature semi-realistic 3D rendering; child-oriented cartoon/chibi/anime/toy-CGI aesthetics are discouraged.",
+      "Visual Bible and scene templates were converted from legacy science examples to Buddhist-channel examples without changing schema fields.",
+      "Legacy space/science example assets were replaced by Buddhist-specific examples to reduce instruction drift.",
+      "Global duplicate engine retains minimal cross-domain legacy concept anchors solely for old-history duplicate safety; active topic selection remains restricted to buddhist_life and buddhist_wisdom.",
+      "Removed pytest/__pycache__ build artifacts from the package."
+    ],
+    "verification": [
+      "77 tests collected; all 8 test modules passed when executed individually.",
+      "41 Python files compile successfully.",
+      "A 290,000-character LONG master_script was accepted by the final QA length policy, confirming no fixed LONG ceiling.",
+      "All 8 final schemas verified byte-identical against the uploaded package."
+    ]
+  }
+}

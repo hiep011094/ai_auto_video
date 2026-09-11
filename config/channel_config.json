@@ -1,0 +1,75 @@
+{
+  "channel_name": "ĐƯỜNG VỀ TỈNH THỨC",
+  "channel_topics": [
+    "Phật pháp sống",
+    "Trí tuệ Phật giáo"
+  ],
+  "categories": {
+    "buddhist_life": "Phật pháp sống",
+    "buddhist_wisdom": "Trí tuệ Phật giáo"
+  },
+  "topic_signals": [
+    "Phật",
+    "Bồ tát",
+    "chánh niệm",
+    "chính niệm",
+    "thiền",
+    "từ bi",
+    "vô thường",
+    "vô ngã",
+    "duyên khởi",
+    "nhân quả",
+    "nghiệp",
+    "buông bỏ",
+    "tỉnh thức",
+    "tham sân si",
+    "sân hận",
+    "hiếu hạnh",
+    "tu tập",
+    "kinh điển",
+    "pháp môn",
+    "niết bàn",
+    "khổ đế",
+    "tứ diệu đế",
+    "bát chánh đạo",
+    "giới định tuệ",
+    "chùa",
+    "tăng đoàn",
+    "Tam bảo",
+    "hỷ xả",
+    "bố thí",
+    "tri túc",
+    "A Di Đà",
+    "Thích Ca"
+  ],
+  "visual_style": {
+    "overall": "serene cinematic documentary, warm amber tones, respectful Buddhist imagery",
+    "avoid": [
+      "sensationalism",
+      "invented scripture",
+      "guaranteed supernatural results",
+      "cartoon style"
+    ]
+  },
+  "voice_style_by_language": {
+    "vi": "contemplative"
+  },
+  "char_limits": {
+    "short": {
+      "min": 900,
+      "max": 1200
+    },
+    "long": {
+      "min": 12000,
+      "max": 20000
+    }
+  },
+  "words_per_scene": {
+    "short": {
+      "vi": 14
+    },
+    "long": {
+      "vi": 20
+    }
+  }
+}

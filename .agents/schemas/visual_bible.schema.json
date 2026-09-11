@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "tools/schema_validator.py implements the project-used draft-07 subset: type, const, enum, required, properties, additionalProperties, items, minLength, maxLength, minimum, maximum, pattern, minItems, maxItems, uniqueItems, allOf with simple if/then.",
+  "title": "visual_bible.json",
+  "type": "object",
+  "required": [
+    "story_anchor",
+    "characters",
+    "locations",
+    "visual_style",
+    "lighting_timeline",
+    "camera_style",
+    "negative_keywords"
+  ],
+  "properties": {
+    "story_anchor": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Required project-wide continuity anchor: concise 2-4 sentence summary of the video's throughline, visual logic, and ending/payoff. Read before every scene batch to prevent long-job narrative drift."
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "role",
+          "appearance",
+          "outfit"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "age_range": {
+            "type": "string"
+          },
+          "appearance": {
+            "type": "string",
+            "minLength": 1
+          },
+          "outfit": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "description": "Optional lexical aliases/role labels that may refer to this exact visual identity. Do not use one alias for visually different eras/outfits; create a separate character entry instead."
+          },
+          "era": {
+            "type": "string",
+            "description": "Optional era/time-state identity discriminator, e.g. Gemini-era astronaut vs modern ISS astronaut. If appearance/outfit differs materially by era, use separate character entries."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "description": "Optional lexical aliases that refer to this same canonical visual entity and therefore require the same canonical description in veo_prompt."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "key_objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "description": "Optional lexical aliases that refer to this same canonical visual entity and therefore require the same canonical description in veo_prompt."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "visual_style": {
+      "type": "object",
+      "required": [
+        "aspect_ratio",
+        "film_look",
+        "color_grading"
+      ],
+      "properties": {
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "9:16",
+            "16:9"
+          ],
+          "description": "9:16 for SHORT videos (vertical), 16:9 for LONG videos (horizontal)"
+        },
+        "film_look": {
+          "type": "string",
+          "minLength": 1
+        },
+        "color_grading": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "lighting_timeline": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "stage",
+          "time_of_day",
+          "mood"
+        ],
+        "properties": {
+          "stage": {
+            "type": "string",
+            "minLength": 1
+          },
+          "time_of_day": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mood": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "camera_style": {
+      "type": "object",
+      "required": [
+        "lens",
+        "movement_notes"
+      ],
+      "properties": {
+        "lens": {
+          "type": "string",
+          "minLength": 1
+        },
+        "movement_notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "negative_keywords": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "description": "Project-wide visual negatives. Must include baseline policy-safety negatives and the Production V4 no-internal-edit negatives; deterministic QA enforces the exact required baseline."
+    }
+  },
+  "additionalProperties": false
+}

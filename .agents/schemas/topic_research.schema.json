@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Runtime-only QA ledger. It is never shipped in the final video folder and does not change the project's final output schema.",
+  "title": "topic_research.runtime.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "selected_category",
+    "mode",
+    "checked_at",
+    "candidates"
+  ],
+  "properties": {
+    "selected_category": {
+      "type": "string",
+      "enum": [
+        "buddhist_life",
+        "buddhist_wisdom"
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "1",
+        "2"
+      ]
+    },
+    "checked_at": {
+      "type": "string",
+      "minLength": 10
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "angle",
+          "freshness_window",
+          "momentum_signal",
+          "visual_richness",
+          "source_strength",
+          "novelty",
+          "category_fit",
+          "sources",
+          "decision",
+          "reason"
+        ],
+        "properties": {
+          "angle": {
+            "type": "string",
+            "minLength": 8
+          },
+          "freshness_window": {
+            "type": "string",
+            "enum": [
+              "7d",
+              "30d",
+              "90d",
+              "evergreen"
+            ]
+          },
+          "momentum_signal": {
+            "type": "string",
+            "minLength": 3
+          },
+          "visual_richness": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "source_strength": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "novelty": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "category_fit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "event_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "url",
+                "source_type",
+                "published_at",
+                "supports"
+              ],
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "minLength": 8
+                },
+                "source_type": {
+                  "type": "string",
+                  "enum": [
+                    "youtube_studio",
+                    "creator",
+                    "primary",
+                    "authoritative",
+                    "news",
+                    "other"
+                  ]
+                },
+                "published_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "supports": {
+                  "type": "string",
+                  "minLength": 3
+                }
+              }
+            }
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "reject",
+              "shortlist",
+              "selected"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 8
+          }
+        }
+      }
+    }
+  }
+}

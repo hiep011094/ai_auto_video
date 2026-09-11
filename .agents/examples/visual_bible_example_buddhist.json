@@ -1,0 +1,80 @@
+{
+  "story_anchor": "A Vietnamese viewer is guided from a familiar experience of anger toward the Buddhist practice of observing emotion without immediately acting on it. The video distinguishes canonical principles from modern application, illustrates the teaching through an anonymous everyday situation, and ends with a concrete way to pause before reacting.",
+  "characters": [
+    {
+      "name": "anonymous lay visitor",
+      "role": "generic adult visitor used to illustrate everyday emotional reactions",
+      "age_range": "35-45",
+      "appearance": "Vietnamese/Asian adult with natural facial proportions, short dark hair, calm but expressive eyes, generic appearance not modeled on any real person",
+      "outfit": "simple ivory linen shirt, muted brown trousers, plain dark sandals, no logos or readable text",
+      "aliases": ["visitor", "lay visitor"],
+      "era": "contemporary"
+    },
+    {
+      "name": "anonymous elderly monk",
+      "role": "generic monastic figure illustrating calm attention without portraying any named real teacher",
+      "age_range": "65-75",
+      "appearance": "elderly Asian man with natural facial proportions, shaved head, gentle weathered features, restrained expression, generic appearance not modeled on any real person",
+      "outfit": "plain saffron-brown monastic robe with realistic cloth folds, no insignia, no readable text",
+      "aliases": ["elderly monk", "monk"],
+      "era": "contemporary"
+    }
+  ],
+  "locations": [
+    {
+      "name": "quiet Buddhist monastery courtyard",
+      "description": "weathered stone courtyard beside a modest traditional monastery, dark timber columns, clay roof tiles, one mature bodhi tree casting dappled shade, a low lotus pond at frame edge, warm natural earth colors, no modern signage",
+      "aliases": ["monastery courtyard", "temple courtyard"]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "bronze meditation bell",
+      "description": "small hand-cast bronze meditation bell with gently aged patina, rounded shoulder, dark wooden striker, no engraved readable text or logos",
+      "aliases": ["meditation bell", "bronze bell"]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "premium cinematic Buddhist visual storytelling, mature semi-realistic 3D, warm amber tones, soft natural light, subtle film grain, high detail, physically grounded materials",
+    "color_grading": "Palette A (warm sacred amber, saffron, aged wood brown) for temple/monastery interiors; Palette B (soft gold, sage green, dew silver) for outdoor dawn; Palette C (deep forest green, bark brown, dappled gold) for forest/nature; Palette D (deep blue-grey, silver-white, distant amber) for night/moonlit scenes. Controlled contrast and physically plausible skin/material color throughout. See references/color_palette_system.md for full palette specifications."
+  },
+  "lighting_timeline": [
+    {"stage": "opening", "time_of_day": "early dawn", "mood": "quiet tension and inward attention"},
+    {"stage": "body", "time_of_day": "soft morning", "mood": "clear, contemplative and humane"},
+    {"stage": "ending", "time_of_day": "golden hour", "mood": "gentle release and practical calm"}
+  ],
+  "camera_style": {
+    "lens": "35mm baseline, 50mm for conversational human scale, 85mm for intimate hand/face details, 24mm only for spacious establishing shots",
+    "movement_notes": "slow controlled dolly, restrained lateral tracking, gentle arcs and stable inserts; no frantic handheld movement, whip pans or impossible camera travel"
+  },
+  "negative_keywords": [
+    "watermark",
+    "text overlay",
+    "burned-in subtitles",
+    "logo",
+    "childish cartoon style",
+    "chibi proportions",
+    "oversized cartoon eyes",
+    "anime exaggeration",
+    "toy-like plastic CGI",
+    "flat 2D illustration",
+    "overly bright neon colors",
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes"
+  ]
+}
