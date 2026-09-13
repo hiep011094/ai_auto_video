@@ -1,0 +1,273 @@
+{
+  "story_anchor": "Bo phim tai lieu dien anh theo chan cuoc doi va triet ly cua Phat Hoang Tran Nhan Tong, tu vi minh quan hai lan danh bai de che Nguyen Mong den quyet dinh buong bo ngai vang len non thieng Yen Tu sang lap Thien phai Truc Lam. Qua hinh anh nui non Yen Tu may phu, tu vien co kinh va sinh hoat thien mon dam chat Dai Viet, tac pham lam noi bat triet ly Cu tran lac dao voi kho bau Phat tinh san co trong tam, khang dinh tinh than nhap the va trao truyen bai hoc ve su tu tai noi tam giua cuoc song hien dai.",
+  "characters": [
+    {
+      "name": "Tran Nhan Tong (Emperor Era)",
+      "role": "Third Emperor of Tran Dynasty and wartime leader",
+      "age_range": "25-35 years old",
+      "appearance": "A dignified Vietnamese monarch with noble facial bone structure, calm penetrating eyes, well-groomed traditional topknot secured with a dark jade pin, generic historical Vietnamese appearance not modeled on any real individual",
+      "outfit": "Traditional royal court dragon robe woven from dark crimson and golden silk with embroidered cloud patterns, wide flowing sleeves, soft fabric boots",
+      "aliases": [
+        "Emperor Tran Nhan Tong",
+        "Vua Tran Nhan Tong",
+        "Tran Nhan Tong as Emperor"
+      ]
+    },
+    {
+      "name": "Tran Nhan Tong (Monk Era / Dieu Ngu Dau Da)",
+      "role": "Founder and First Patriarch of Truc Lam Zen School",
+      "age_range": "41-51 years old",
+      "appearance": "A serene Vietnamese Buddhist monk with a cleanly shaven head, gentle compassionate smile, weathered yet tranquil facial contours, generic appearance not modeled on any real individual",
+      "outfit": "Humble coarse brown Buddhist monk robe (ao nau song) made of unbleached rough hemp, dark fabric belt, woven straw sandals, holding simple prayer beads or a polished bamboo walking staff",
+      "aliases": [
+        "Dieu Ngu Dau Da",
+        "Phat Hoang Tran Nhan Tong",
+        "First Patriarch",
+        "So To Tran Nhan Tong"
+      ]
+    },
+    {
+      "name": "Phap Loa",
+      "role": "Second Patriarch of Truc Lam Zen School",
+      "age_range": "25-35 years old",
+      "appearance": "A resolute and intelligent young Vietnamese monk with a shaven head, bright focused eyes, quiet disciplined demeanor, generic appearance not modeled on any real individual",
+      "outfit": "Plain dark grey Buddhist monk robe with loose sleeves, cloth belt, cloth shoes, often holding a hand-copied sutra scroll or wooden writing board",
+      "aliases": [
+        "Nhi To Phap Loa",
+        "Second Patriarch Phap Loa",
+        "Monk Phap Loa"
+      ]
+    },
+    {
+      "name": "Huyen Quang",
+      "role": "Third Patriarch of Truc Lam Zen School and poet-scholar monk",
+      "age_range": "40-50 years old",
+      "appearance": "A scholarly and introspective Vietnamese monk with a shaven head, gentle philosophical eyes, calm graceful posture, generic appearance not modeled on any real individual",
+      "outfit": "Modest coarse brown monk robe, clean cloth sash, holding a bamboo calligraphy brush or seated before an inkstone, simple fabric sandals",
+      "aliases": [
+        "Tam To Huyen Quang",
+        "Third Patriarch Huyen Quang",
+        "Monk Huyen Quang"
+      ]
+    },
+    {
+      "name": "Vietnamese Zen Monk",
+      "role": "Resident monastic practitioner",
+      "age_range": "30-45 years old",
+      "appearance": "A humble Vietnamese Buddhist monk with a shaven head, serene downward gaze, peaceful mindful posture, generic appearance not modeled on any real individual",
+      "outfit": "Traditional brown monastic robe of plain cotton cloth, cloth footwear",
+      "aliases": [
+        "Zen monk",
+        "monastic practitioner",
+        "Truc Lam monk"
+      ]
+    },
+    {
+      "name": "Modern Mindful Practitioner",
+      "role": "Contemporary person practicing mindfulness in everyday life",
+      "age_range": "28-38 years old",
+      "appearance": "A contemporary Vietnamese adult with natural black hair, serene composed expression, relaxed and present posture, generic appearance not modeled on any real individual",
+      "outfit": "Simple modest modern casual clothing such as a plain linen shirt and trousers in neutral earth tones",
+      "aliases": [
+        "modern practitioner",
+        "contemporary mindful person",
+        "urban practitioner"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Imperial Citadel of Thang Long",
+      "description": "Ancient Vietnamese imperial palace courtyard with curved dark terracotta roof tiles, weathered red-lacquered wooden pillars, carved stone dragon balustrades on steps, open paved courtyard under overcast skies",
+      "aliases": [
+        "Thang Long Citadel",
+        "Imperial Palace of Thang Long",
+        "Royal Court of Thang Long"
+      ]
+    },
+    {
+      "name": "Yen Tu Mountain Ridge and Forest Trail",
+      "description": "Majestic rugged mountain ridge in northern Vietnam with steep stone pathways winding through dense moss-covered ancient pine forests, bamboo groves, drifting white mist, and dramatic rocky overlooks",
+      "aliases": [
+        "Yen Tu Mountain",
+        "Yen Tu trail",
+        "Yen Tu sacred mountain"
+      ]
+    },
+    {
+      "name": "Hoa Yen Pagoda",
+      "description": "Ancient wooden Buddhist pagoda perched on the misty slope of Mount Yen Tu, weathered dark timber columns, moss-covered curved tiled eaves, stone pagoda stupa in courtyard, tranquil mountain backdrop",
+      "aliases": [
+        "Chua Hoa Yen",
+        "Hoa Yen temple",
+        "Yen Tu main pagoda"
+      ]
+    },
+    {
+      "name": "Ngoa Van Hermitage",
+      "description": "Isolated wooden and thatch hermitage hut perched upon a high mountain crag surrounded by jagged stone outcrops, ancient gnarled pines, and panoramic sea of floating white clouds",
+      "aliases": [
+        "Am Ngoa Van",
+        "Ngoa Van temple",
+        "Ngoa Van peak"
+      ]
+    },
+    {
+      "name": "Vinh Nghiem Pagoda Monastic Complex",
+      "description": "Sprawling ancient Vietnamese Buddhist monastery complex with spacious brick-paved courtyards, ancient ironwood halls, carved wooden doors, shaded corridors, and a quiet monastic library archive",
+      "aliases": [
+        "Chua Vinh Nghiem",
+        "Vinh Nghiem monastery",
+        "Vinh Nghiem scripture hall"
+      ]
+    },
+    {
+      "name": "Zen Tea Room and Meditation Chamber",
+      "description": "Serene minimalist wooden meditation hall with polished dark timber floorboards, fine bamboo roll-up blinds, low solid wood tea table, soft diffused window light, and tranquil interior garden view",
+      "aliases": [
+        "Zen tea hall",
+        "meditation chamber",
+        "wooden tea room"
+      ]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "Woodblock Sutra Plate",
+      "description": "A rectangular hand-carved printing woodblock made of seasoned persimmon wood, deeply etched classical Han-Nom calligraphy carved in reverse relief, darkened with dried black pine-soot ink patina",
+      "aliases": [
+        "woodblock plate",
+        "Moc ban Vinh Nghiem",
+        "sutra printing block",
+        "carved woodblock"
+      ]
+    },
+    {
+      "name": "Bronze Meditation Bell",
+      "description": "An antique hand-cast bronze standing bell with a warm aged greenish-gold patina, resting upon a circular silk cushion on a dark polished timber stand, accompanied by a suede-wrapped wooden mallet",
+      "aliases": [
+        "meditation bell",
+        "chuong dong",
+        "bronze singing bell"
+      ]
+    },
+    {
+      "name": "Pine-Soot Ink and Bamboo Calligraphy Brush",
+      "description": "A traditional rectangular dark slate inkstone with freshly ground glossy black pine-soot ink, beside a handcrafted speckled bamboo brush with fine pointed horsehair tip on raw textured dzo bark paper",
+      "aliases": [
+        "inkstone and brush",
+        "calligraphy brush",
+        "bamboo brush and ink"
+      ]
+    },
+    {
+      "name": "Ceramic Zen Teacup",
+      "description": "A handcrafted rustic Vietnamese stoneware teacup featuring a soft celadon glaze with natural delicate crackle lines, filled with warm golden-green tea sending faint wisps of steam into the air",
+      "aliases": [
+        "zen teacup",
+        "ceramic cup",
+        "tea bowl"
+      ]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "cinematic 35mm film look, warm golden amber tones, soft atmospheric haze, natural lighting, deep shadows, fine organic film grain, rich historical texture, highly detailed documentary aesthetic",
+    "color_grading": "historical royal and wartime scenes feature rich amber and terracotta tones with earthy wood textures; mountain hermitages and pilgrimage paths feature misty jade greens, cool slate greys and morning mist; monastic libraries and interior contemplation feature warm candlelit amber and deep mahogany; contemporary contemplation features natural daylight balanced with soft interior tones"
+  },
+  "lighting_timeline": [
+    {
+      "stage": "Chapter 1: Wartime to peace",
+      "time_of_day": "dawn to morning",
+      "mood": "solemn, heroic yet introspective, cold grey shifting to pale gold"
+    },
+    {
+      "stage": "Chapter 2: Renunciation",
+      "time_of_day": "morning to midday",
+      "mood": "dignified, profound detachment, bright clear morning light"
+    },
+    {
+      "stage": "Chapter 3: Ascending Yen Tu",
+      "time_of_day": "morning mist",
+      "mood": "rugged asceticism, mystical mountain atmosphere, diffused fog"
+    },
+    {
+      "stage": "Chapter 4: Unifying the sects",
+      "time_of_day": "midday sun",
+      "mood": "harmonious, grounded, soft sunlight through mountain trees"
+    },
+    {
+      "stage": "Chapter 5: Cu Tran Lac Dao",
+      "time_of_day": "afternoon golden hour",
+      "mood": "warm, luminous, enlightened serenity, amber backlight"
+    },
+    {
+      "stage": "Chapter 6: Engaged Buddhism",
+      "time_of_day": "morning to afternoon",
+      "mood": "compassionate, communal, natural earthy daylight"
+    },
+    {
+      "stage": "Chapter 7: Three Patriarchs and Vinh Nghiem",
+      "time_of_day": "diffuse daylight",
+      "mood": "reverent, structured, quiet architectural light"
+    },
+    {
+      "stage": "Chapter 8: Deep philosophy of mind",
+      "time_of_day": "late afternoon into twilight",
+      "mood": "contemplative, quiet depth, warm side lighting"
+    },
+    {
+      "stage": "Chapter 9: Final passing at Ngoa Van",
+      "time_of_day": "twilight to dusk",
+      "mood": "transcendent, peaceful, golden twilight over cloud sea"
+    },
+    {
+      "stage": "Chapter 10: Woodblock heritage",
+      "time_of_day": "morning light through windows",
+      "mood": "focused craftsmanship, textured highlights on wood and ink"
+    },
+    {
+      "stage": "Chapter 11: Enduring historical legacy",
+      "time_of_day": "clear golden afternoon",
+      "mood": "monumental, timeless, warm sunlight on stone stupas"
+    },
+    {
+      "stage": "Chapter 12: Modern application",
+      "time_of_day": "morning sunlight to sunset",
+      "mood": "calm, practical, balanced natural contemporary daylight"
+    }
+  ],
+  "camera_style": {
+    "lens": "cinematic prime lenses, 35mm wide for sweeping architecture and landscapes, 50mm natural documentary view for figure interactions, 85mm shallow depth of field for contemplative character focus and macro details",
+    "movement_notes": "deliberate slow cinematic tracking, gentle push-ins, subtle static locked-off shots, smooth fluid pans, zero fast whip cuts or jittery handheld shake"
+  },
+  "negative_keywords": [
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes",
+    "watermark",
+    "text overlay",
+    "burned-in subtitles",
+    "logo",
+    "emblem",
+    "toy-like cartoon CGI",
+    "exaggerated anime",
+    "flat 2D illustration",
+    "anachronistic modern details",
+    "distorted faces",
+    "extra limbs"
+  ]
+}

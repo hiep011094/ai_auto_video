@@ -1,0 +1,248 @@
+{
+  "story_anchor": "Bộ phim tài liệu điện ảnh khảo sát toàn diện Bát Chánh Đạo — con đường tám nhánh do Đức Phật tuyên thuyết tại vườn Lộc Uyển nhằm chấm dứt mọi khổ đau của kiếp nhân sinh. Xuyên suốt từ khung cảnh cổ xưa tại Ấn Độ cổ đại đến đời sống đô thị đương đại, bộ phim kết nối tám chi phần thành hệ thống tu tập Tam Học Giới - Định - Tuệ vững chắc, dẫn dắt người xem từ sự giác ngộ Chánh kiến đến đỉnh cao của Chánh niệm, Chánh định và tuệ giác giải thoát an nhiên giữa dòng đời biến dịch.",
+  "characters": [
+    {
+      "name": "The Buddha (Historical Preacher)",
+      "role": "Historical enlightened teacher delivering the first sermon and guiding disciples",
+      "age_range": "35-45 years old",
+      "appearance": "A serene ancient Indian spiritual teacher with serene compassionate eyes, gentle dignified facial structure, hair curled in traditional meditative cranial ushnisha silhouette, calm transcendent aura, generic historical appearance not modeled on any real person or specific statue",
+      "outfit": "Simple unadorned ochre-saffron monk robe (kasaya) draped gracefully over the left shoulder, bare right arm, bare feet on earth",
+      "aliases": [
+        "The Buddha (Historical Preacher)",
+        "Historical Buddha",
+        "Enlightened Teacher Gautama"
+      ]
+    },
+    {
+      "name": "Kondañña (Elder Ascetic)",
+      "role": "Elder ascetic of the group of five companion seekers at Sarnath",
+      "age_range": "50-60 years old",
+      "appearance": "An elderly ancient Indian seeker with weathered gentle features, wise receptive eyes, grey-streaked ascetic beard and tied topknot, generic ascetic appearance",
+      "outfit": "Rough earth-toned linen ascetic robe, seated respectfully on a grass mat",
+      "aliases": [
+        "Kondañña (Elder Ascetic)",
+        "Elder Kondanna",
+        "Ascetic Kondanna"
+      ]
+    },
+    {
+      "name": "Monastic Meditator",
+      "role": "Dedicated Buddhist monk practicing meditation and monastic discipline",
+      "age_range": "30-45 years old",
+      "appearance": "A tranquil Buddhist monk with cleanly shaven head, lowered peaceful gaze, calm upright meditative posture, gentle composed expression",
+      "outfit": "Traditional saffron-ochre monastic robe draped naturally, bare feet, seated on woven mat or walking slowly",
+      "aliases": [
+        "Monastic Meditator",
+        "Monastic practitioner",
+        "Resident monastic practitioner"
+      ]
+    },
+    {
+      "name": "Contemporary Mindful Person",
+      "role": "Modern urban adult applying Buddhist wisdom and mindfulness in contemporary daily life",
+      "age_range": "28-40 years old",
+      "appearance": "A contemporary Vietnamese adult with natural black hair, serene composed face, mindful peaceful gaze, relaxed balanced posture",
+      "outfit": "Modest comfortable modern attire in muted neutral tones such as beige linen shirt and dark trousers",
+      "aliases": [
+        "Contemporary Mindful Person",
+        "Modern mindful practitioner",
+        "Contemporary urban practitioner"
+      ]
+    },
+    {
+      "name": "Ethical Artisan",
+      "role": "Traditional honest craftsman or worker embodying Right Livelihood and Right Action",
+      "age_range": "35-50 years old",
+      "appearance": "A focused, honest-faced artisan with weathered skilled hands, calm focused eyes, peaceful dedication to honest craft",
+      "outfit": "Simple sturdy traditional cotton tunic and work trousers in earthy indigo or natural hemp",
+      "aliases": [
+        "Ethical Artisan",
+        "Traditional honest artisan",
+        "Practitioner of Right Livelihood"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "name": "Deer Park at Sarnath (Isipatana)",
+      "description": "Ancient tranquil grove of sal trees and lush grass plains near Varanasi in ancient India, wild gentle deer grazing in the distance, soft morning mist, ancient stone platform under leafy trees where the first sermon took place",
+      "aliases": [
+        "Deer Park at Sarnath (Isipatana)",
+        "Deer Park at Sarnath",
+        "Isipatana deer grove"
+      ]
+    },
+    {
+      "name": "Ancient Forest Meditation Sanctuary",
+      "description": "Quiet secluded forest clearing surrounded by ancient Bodhi trees and banyan roots, smooth river rocks, soft carpet of moss and fallen leaves, dappled golden sunlight filtering through leafy canopy",
+      "aliases": [
+        "Ancient Forest Meditation Sanctuary",
+        "Forest meditation sanctuary",
+        "Secluded forest sanctuary"
+      ]
+    },
+    {
+      "name": "Tranquil Monastic Meditation Hall",
+      "description": "Spacious serene open-air Buddhist monastery hall with polished dark wooden floors, weathered timber pillars, open verandas looking out to lush bamboo gardens, gentle breeze swaying linen curtains, soft diffused daylight",
+      "aliases": [
+        "Tranquil Monastic Meditation Hall",
+        "Open-air meditation hall",
+        "Monastery meditation hall"
+      ]
+    },
+    {
+      "name": "Contemporary Urban Setting",
+      "description": "A bustling contemporary city street and modern workspace with glass windows, warm interior lighting, rain-slicked pavement reflecting gentle city lights, balanced contrast between urban rush and inner calm",
+      "aliases": [
+        "Contemporary Urban Setting",
+        "Modern urban setting",
+        "Contemporary city environment"
+      ]
+    },
+    {
+      "name": "Serene Lotus Pond",
+      "description": "Calm reflective natural pond filled with blooming pink and white sacred lotus flowers, large green lily pads resting upon still crystal-clear water, gentle ripples catching dawn golden light",
+      "aliases": [
+        "Serene Lotus Pond",
+        "Reflective lotus pond",
+        "Natural lotus pond"
+      ]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "Dharmachakra (Wheel of Dhamma)",
+      "description": "An ancient eight-spoked stone and bronze sacred wheel symbol, balanced symmetrical spokes representing the Eightfold Path, central hub representing moral discipline, outer rim catching subtle golden rim light",
+      "aliases": [
+        "Dharmachakra (Wheel of Dhamma)",
+        "Eight-spoked Dharmachakra",
+        "Wheel of Dhamma"
+      ]
+    },
+    {
+      "name": "Sacred Lotus Flower",
+      "description": "Pristine blooming lotus flower rising gracefully above still pond water, delicate pink and white petals unfolding in pristine purity, dew drops glistening in dawn light",
+      "aliases": [
+        "Sacred Lotus Flower",
+        "Blooming sacred lotus",
+        "Sacred lotus bloom"
+      ]
+    },
+    {
+      "name": "Ancient Oil Lamp",
+      "description": "Simple traditional bronze oil lamp with a steady warm golden flame burning quietly in a windless room, casting soft amber reflections onto dark wood",
+      "aliases": [
+        "Ancient Oil Lamp",
+        "Traditional bronze oil lamp"
+      ]
+    },
+    {
+      "name": "Standing Bronze Meditation Bell",
+      "description": "A hand-hammered antique bronze standing bell with polished wooden striker resting on a woven round meditation cushion on polished dark wood",
+      "aliases": [
+        "Standing Bronze Meditation Bell",
+        "Antique bronze meditation bell"
+      ]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "premium cinematic Buddhist visual storytelling, mature semi-realistic 3D, warm amber tones, soft natural light, subtle film grain, high detail, physically grounded materials",
+    "color_grading": "Balanced cinematic harmony: warm golden dawn amber for Sarnath and enlightenment scenes (Palette A), deep tranquil forest greens and earthen browns for meditation and monastic discipline (Palette C), crisp contemplative cool dawn blue transitioning to amber for modern mindfulness (Palette B)"
+  },
+  "lighting_timeline": [
+    {
+      "stage": "Chapter 1: The First Sermon at Sarnath",
+      "time_of_day": "dawn golden hour",
+      "mood": "mystical awakening, quiet reverence, soft morning rays through ancient trees"
+    },
+    {
+      "stage": "Chapter 2: Nature of Modern Suffering",
+      "time_of_day": "overcast afternoon into dusk",
+      "mood": "somber existential inquiry, reflective urban atmosphere, diffused cool grey-blue light"
+    },
+    {
+      "stage": "Chapter 3: Threefold Training Framework",
+      "time_of_day": "clear morning sunlight",
+      "mood": "structured clarity, serene balance, warm architectural sunlight on wood and stone"
+    },
+    {
+      "stage": "Chapter 4: Right View and Illumination",
+      "time_of_day": "radiant sunrise",
+      "mood": "piercing golden dawn, expansive horizon, awakening clarity dissipating morning mist"
+    },
+    {
+      "stage": "Chapter 5: Right Thought and Compassion",
+      "time_of_day": "gentle morning light",
+      "mood": "refreshing breeze, gentle purification, dappled sunlight through green leaves"
+    },
+    {
+      "stage": "Chapter 6: Right Speech and Action",
+      "time_of_day": "bright balanced midday",
+      "mood": "clear moral purity, open harmonious daylight, warm earthen tones"
+    },
+    {
+      "stage": "Chapter 7: Right Livelihood in Society",
+      "time_of_day": "warm late morning",
+      "mood": "honest industrious dignity, authentic craftsmanship, grounded natural light"
+    },
+    {
+      "stage": "Chapter 8: Overcoming Hindrances",
+      "time_of_day": "twilight transmuting into clear moonlight",
+      "mood": "calm purification, stillness emerging from agitation, silvery reflections"
+    },
+    {
+      "stage": "Chapter 9: Right Effort and Mindfulness",
+      "time_of_day": "early morning dawn",
+      "mood": "mindful alertness, gentle presence, dew drops glistening on grass and stones"
+    },
+    {
+      "stage": "Chapter 10: Right Concentration and Jhana",
+      "time_of_day": "intimate evening stillness",
+      "mood": "deep absorption, single warm golden candle flame in dark peaceful hall"
+    },
+    {
+      "stage": "Chapter 11: Vipassana and Three Marks",
+      "time_of_day": "golden afternoon golden hour",
+      "mood": "insightful detachment, warm amber sunlight on falling leaves and flowing stream"
+    },
+    {
+      "stage": "Chapter 12: Perfect Interbeing and Freedom",
+      "time_of_day": "luminous radiant sunset",
+      "mood": "transcendent joy, serene wholeness, golden warmth enveloping the blooming lotus"
+    }
+  ],
+  "camera_style": {
+    "lens": "cinematic prime lenses, 35mm wide for sweeping ancient landscapes and temple groves, 50mm natural documentary view for human interactions and meditation, 85mm shallow depth of field for contemplative character focus and macro details of lotus and water",
+    "movement_notes": "deliberate slow cinematic tracking, gentle push-ins, subtle static locked-off shots, smooth fluid pans, zero fast whip cuts or jittery handheld shake"
+  },
+  "negative_keywords": [
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes",
+    "watermark",
+    "text overlay",
+    "burned-in subtitles",
+    "logo",
+    "emblem",
+    "toy-like cartoon CGI",
+    "exaggerated anime",
+    "flat 2D illustration",
+    "anachronistic modern details",
+    "distorted faces",
+    "extra limbs"
+  ]
+}

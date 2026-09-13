@@ -17,5 +17,43 @@
     "capcut_created": false,
     "capcut_created_at": null,
     "created_at": "2026-09-10T08:23:14.428+07:00"
+  },
+  {
+    "id": "b0b17c90-6625-4c46-8cb5-aaa3ae373ab2",
+    "title": "Phật Hoàng Trần Nhân Tông Và Thiền Phái Trúc Lâm Yên Tử: Lịch Sử Khởi Lập, Triết Lý Cư Trần Lạc Đạo Và Di Sản Tinh Thần Đại Việt",
+    "folder": "phat-hoang-tran-nhan-tong-va-thien-phai-truc-lam-yen-tu",
+    "date": "2026-09-13T02:26:18+07:00",
+    "type": "long",
+    "language": "vi",
+    "mode": "2",
+    "voiceStyle": "contemplative",
+    "aiModel": "agy",
+    "category": "buddhist_wisdom",
+    "last_hook_pattern": 3,
+    "main_video_content": "Khảo sát toàn diện cuộc đời và sự nghiệp tâm linh của Đức Vua - Phật Hoàng Trần Nhân Tông, từ bậc minh quân lãnh đạo Đại Việt hai lần chiến thắng quân xâm lược Nguyên Mông đến khi buông bỏ ngai vàng lên non thiêng Yên Tử sáng lập Thiền phái Trúc Lâm thuần Việt. Phân tích sâu sắc tinh thần Phật giáo nhập thế cùng triết lý Cư trần lạc đạo, khẳng định Phật tính hiện tiền ngay giữa bổn phận thường nhật và mở ra con đường an trú tự tại, thảnh thơi cho con người hiện đại.",
+    "youtube_status": "pending",
+    "youtube_video_id": null,
+    "capcut_created": false,
+    "capcut_created_at": null,
+    "created_at": "2026-09-12T17:14:27.973+07:00"
+  },
+  {
+    "id": "15eedbb4-de81-4adf-9977-75cdf10c241f",
+    "title": "Bát Chánh Đạo: Con Đường Tám Nhánh Dẫn Đến Đoạn Tận Khổ Đau Và Bản Đồ Tu Tập Tam Học Giới Định Tuệ",
+    "folder": "bat-chanh-dao-con-duong-tam-nhanh-dan-den-doan-tan-kho-dau-va-ban-do-tu-tap-tam-hoc-gioi-dinh-tue",
+    "date": "2026-09-13T18:00:27.363287+07:00",
+    "type": "long",
+    "language": "vi",
+    "mode": "2",
+    "voiceStyle": "contemplative",
+    "aiModel": "agy",
+    "category": "buddhist_life",
+    "last_hook_pattern": 2,
+    "main_video_content": "Phân tích toàn diện và sâu sắc tám chi phần của Bát Chánh Đạo (Chánh kiến, Chánh tư duy, Chánh ngữ, Chánh nghiệp, Chánh mạng, Chánh tinh tấn, Chánh niệm, Chánh định) như một lộ trình chuyển hóa tâm thức toàn diện dẫn đến đoạn tận khổ đau. Khám phá mối quan hệ tương tức hữu cơ giữa Bát Chánh Đạo và khung tu tập Tam Học Giới - Định - Tuệ từ góc nhìn kinh điển nguyên thủy kết hợp ứng dụng chuyển hóa thực tiễn cho đời sống hiện đại, chỉ rõ cách nhận diện thực tại, thanh lọc hành vi và an trú nội tâm vững chãi giữa những biến động của cuộc đời.",
+    "youtube_status": "pending",
+    "youtube_video_id": null,
+    "capcut_created": false,
+    "capcut_created_at": null,
+    "created_at": "2026-09-13T08:07:21.661+07:00"
   }
 ]

@@ -19,6 +19,15 @@ def atomic_json(target, data):
     finally:
         if temp.exists(): temp.unlink()
 
+def atomic_bytes(target, raw_bytes):
+    target=Path(target);target.parent.mkdir(parents=True,exist_ok=True)
+    temp=target.with_name('.tmp_'+uuid.uuid4().hex)
+    try:
+        temp.write_bytes(raw_bytes)
+        os.replace(temp,target)
+    finally:
+        if temp.exists(): temp.unlink()
+
 def runtime_file(folder, stem, scoped_only=False):
     folder=Path(folder).resolve();runtime=folder.parent.parent/'.agent_runtime'
     scoped=runtime/f'{stem}_{folder.name}.json'
@@ -40,7 +49,8 @@ def archive_verified_inputs(folder):
     for stem in STEMS:
         source=runtime_file(folder,stem,stem.startswith('_veo_'))
         if not source.exists(): continue
-        value=json.loads(source.read_text(encoding='utf-8'))
-        target=destination/f'{stem}.json';atomic_json(target,value)
-        files[target.name]=hashlib.sha256(target.read_bytes()).hexdigest()
+        raw_bytes=source.read_bytes()
+        target=destination/f'{stem}.json'
+        atomic_bytes(target,raw_bytes)
+        files[target.name]=hashlib.sha256(raw_bytes).hexdigest()
     atomic_json(destination/'manifest.json',{'version':1,'script_sha256':hashlib.sha256((folder/'master_script.txt').read_bytes()).hexdigest(),'files':files})

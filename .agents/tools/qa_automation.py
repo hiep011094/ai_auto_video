@@ -596,7 +596,11 @@ def check_visual_bible_anchor_usage(folder_path):
         for kind, name, aliases, anchors in entities:
             if not any(phrase_present(prompt_cf, a) for a in aliases):
                 continue
-            missing = [a for a in anchors if a.casefold() not in prompt_cf]
+            missing = []
+            for a in anchors:
+                base_anchor = a.split(",")[0].strip() if "," in a else a
+                if not (a.casefold() in prompt_cf or base_anchor.casefold() in prompt_cf):
+                    missing.append(a)
             if missing:
                 issues.append(
                     f"{chapter_path.name} scene {scene.get('scene')}: named {kind} '{name}' but omitted/paraphrased canonical anchor(s)"

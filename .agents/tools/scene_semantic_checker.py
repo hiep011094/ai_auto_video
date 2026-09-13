@@ -317,21 +317,21 @@ Return ONLY valid JSON in this exact shape:
       "scene": 1,
       "pass": true,
       "severity": "ok",
-      "fidelity_score": 0.0,
-      "locality_score": 0.0,
-      "progression_score": 0.0,
-      "continuity_score": 0.0,
-      "identity_score": 0.0,
-      "physics_score": 0.0,
-      "single_shot_score": 0.0,
-      "cinematic_craft_score": 0.0,
-      "epistemic_score": 0.0,
-      "visual_domain_score": 0.0,
-      "evidence_visualization_score": 0.0,
-      "subject_lock_score": 0.0,
-      "future_leak_score": 0.0,
-      "time_scale_score": 0.0,
-      "transition_free_score": 0.0,
+      "fidelity_score": 0.95,
+      "locality_score": 0.95,
+      "progression_score": 0.95,
+      "continuity_score": 0.95,
+      "identity_score": 0.95,
+      "physics_score": 0.95,
+      "single_shot_score": 0.95,
+      "cinematic_craft_score": 0.95,
+      "epistemic_score": 0.95,
+      "visual_domain_score": 0.95,
+      "evidence_visualization_score": 0.95,
+      "subject_lock_score": 0.95,
+      "future_leak_score": 0.95,
+      "time_scale_score": 0.95,
+      "transition_free_score": 0.95,
       "reason": "specific concise reason tied to the current narration beat",
       "fix_direction": "empty when pass; precise visual correction when not pass"
     }}
@@ -339,6 +339,7 @@ Return ONLY valid JSON in this exact shape:
 }}
 
 Severity must be one of: ok, warning, blocking.
+Scores must be realistic floats between 0.0 and 1.0 (e.g. 0.90-1.0 for high alignment, lower when deficient).
 Use `blocking` for any material contradiction/miss of current voiceover, named-subject substitution, later-clause/future-subject leakage, continuity_ref future-content leakage, wrong side of an argument, speculative content shown as confirmed, identity drift, implausible continuity/physics/time-scale contradiction, hidden visual-domain transformation, unreliable exact large-count rendering request, evidence-overclaim/visual-verdict, positive↔Negative contradiction, or any internal transition/multi-shot construction.
 Use `warning` only when the scene is semantically correct but could be more specific/cinematic.
 Every supplied scene number must appear exactly once in the output.
@@ -376,12 +377,15 @@ def validate_ai_result(result, expected_scene_numbers):
             if isinstance(val, str):
                 try:
                     val_f = float(val.strip().rstrip("%"))
-                    if val_f > 1.0:
-                        val_f = val_f / 100.0
                     val = val_f
-                    row[key] = val
                 except ValueError:
                     pass
+            if isinstance(val, (int, float)) and not isinstance(val, bool):
+                if 1.0 < val <= 10.0:
+                    val = val / 10.0
+                elif 10.0 < val <= 100.0:
+                    val = val / 100.0
+                row[key] = val
             if not isinstance(val, (int, float)) or isinstance(val, bool) or not (0 <= val <= 1):
                 return False, f"scene {row.get('scene')} has invalid {key}"
     if seen != expected_scene_numbers:

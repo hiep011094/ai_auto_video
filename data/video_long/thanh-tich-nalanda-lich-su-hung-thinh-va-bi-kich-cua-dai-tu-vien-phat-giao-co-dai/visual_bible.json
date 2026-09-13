@@ -1,0 +1,175 @@
+{
+  "story_anchor": "Video theo bước hành trình lịch sử hơn bảy thế kỷ của đại học Phật giáo Nalanda, từ cội nguồn khu vườn xoài Pavarika và triều đại Gupta thịnh trị cho đến đỉnh cao học thuật quốc tế thời Huyền Trang và bi kịch ngọn lửa năm 1193. Mạch phim kết nối giữa vẻ uy nghiêm của các công trình gạch nung đỏ cổ kính với chiều sâu tuệ giác Đại thừa, khép lại bằng bài học chiêm nghiệm sâu sắc về quy luật vô thường và di sản tinh thần bất tử soi sáng con đường tỉnh thức hôm nay.",
+  "characters": [
+    {
+      "name": "narrator",
+      "role": "anonymous off-screen narrator, never appears on camera",
+      "age_range": "N/A",
+      "appearance": "N/A — narrator is voice-only and never shown on screen",
+      "outfit": "N/A — narrator is voice-only and never shown on screen",
+      "aliases": [
+        "narrator"
+      ],
+      "era": "N/A"
+    },
+    {
+      "name": "monk_scholar",
+      "role": "generic ancient Buddhist scholar monk studying and debating at Nalanda",
+      "age_range": "30-45",
+      "appearance": "cleanly shaved head, serene and focused facial expression, warm South Asian features, calm contemplative dark eyes, athletic yet modest monastic build",
+      "outfit": "authentic traditional draped saffron-orange Buddhist monastic robe (antaravasaka and uttarasanga), coarse natural cotton weave, bare right shoulder, simple wooden sandals",
+      "aliases": [
+        "monk",
+        "scholar monk",
+        "Buddhist monk",
+        "học tăng"
+      ],
+      "era": "ancient India 5th-12th century"
+    },
+    {
+      "name": "elder_abbot",
+      "role": "generic senior Buddhist abbot and philosophy teacher at Nalanda",
+      "age_range": "70-80",
+      "appearance": "shaved head with thin grey stubble, weathered gentle face with deep lines of wisdom, deeply compassionate gaze, slender ascetic monastic posture",
+      "outfit": "layered ceremonial deep ochre and madder-red Buddhist monastic robe, fine unadorned wool-cotton blend, prayer bead bracelet on left wrist, simple leather slippers",
+      "aliases": [
+        "abbot",
+        "senior teacher",
+        "giáo thọ sư",
+        "trưởng lão"
+      ],
+      "era": "ancient India 5th-12th century"
+    },
+    {
+      "name": "xuanzang_pilgrim",
+      "role": "generic historical reconstruction of East Asian pilgrim monk traveling to India",
+      "age_range": "35-42",
+      "appearance": "shaved head, resolute and peaceful facial expression, East Asian features, steady determined gaze reflecting long arduous travel, lean and enduring physical build",
+      "outfit": "modest travel-worn layered dark grey and amber Buddhist pilgrim robes, strapped fabric gaiters, woven straw sandals, carrying a traditional bamboo back-frame with rolled canopy",
+      "aliases": [
+        "pilgrim monk",
+        "traveling monk",
+        "Huyền Trang"
+      ],
+      "era": "7th century CE"
+    }
+  ],
+  "locations": [
+    {
+      "name": "nalanda_ancient_complex",
+      "description": "reconstructed ancient Nalanda Mahavihara, vast symmetrical red-brick monastic architecture, imposing multi-story vihara residential quads, towering central stupa with intricate terracotta carvings, wide brick-paved central avenue, tranquil lotus ponds and lush green trees under serene sky",
+      "aliases": [
+        "Nalanda Mahavihara",
+        "ancient Nalanda",
+        "monastery complex",
+        "đại tu viện Nalanda"
+      ]
+    },
+    {
+      "name": "dharma_gunj_library",
+      "description": "interior of the ancient Dharma Gunj library tower, massive red-brick walls with narrow arched ventilation windows, tall cedarwood timber ceilings, endless rows of dark wooden manuscript racks and carved stone storage chests holding tied palm-leaf texts, soft shafts of natural daylight and floating dust motes",
+      "aliases": [
+        "Dharma Gunj",
+        "Nalanda library",
+        "tàng kinh các",
+        "thư viện Nalanda"
+      ]
+    },
+    {
+      "name": "ancient_lecture_hall",
+      "description": "ancient open-air debate courtyard and shaded lecture hall, stepped red-brick terrace seating, surrounding covered colonnade of slender brick pillars, stone podium for speakers, peaceful central tree casting dappled shade, warm ambient daylight",
+      "aliases": [
+        "debate courtyard",
+        "lecture hall",
+        "giảng đường cổ",
+        "sân tranh biện"
+      ]
+    },
+    {
+      "name": "nalanda_ruins_today",
+      "description": "modern archaeological ruins of Nalanda in Bihar, weathered exposed crimson-red brick foundations, towering terraced stupa number 3 rising into a clear blue sky, manicured green lawns, peaceful golden hour sunlight casting long shadows across centuries-old brickwork",
+      "aliases": [
+        "Nalanda ruins",
+        "archaeological site",
+        "phế tích Nalanda",
+        "khu di tích khảo cổ"
+      ]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "palm_leaf_manuscript",
+      "description": "ancient Indian Tala palm-leaf manuscript bundle, long narrow dried rectangular leaves inscribed with delicate black soot-ink Sanskrit text, threaded through circular holes with silk cord and bound between two dark polished wooden covers with carved floral motifs",
+      "aliases": [
+        "palm leaf",
+        "manuscript",
+        "kinh lá bối",
+        "bản thảo bối diệp"
+      ]
+    },
+    {
+      "name": "nalanda_bronze_seal",
+      "description": "cast bronze institutional seal of Nalanda, circular medallion featuring a central twelve-spoked Dharmachakra flanked by two kneeling deer, with ancient Brahmi-Sanskrit script engraved below, rich aged green-brown bronze patina",
+      "aliases": [
+        "bronze seal",
+        "monastery seal",
+        "ấn đồng hoàng gia"
+      ]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "premium cinematic Buddhist documentary, mature semi-realistic 3D, warm amber tones, soft natural atmospheric light, subtle film grain, rich brick and stone textures",
+    "color_grading": "Palette A (warm sacred amber, terracotta red-brick, aged cedarwood brown) for ancient Nalanda monastery scenes; Palette B (soft dawn gold, misty river haze, dew silver) for Ganges valley landscapes; Palette C (dramatic dusk amber, deep shadow charcoal) for historical transition scenes; Palette D (golden hour sunlight, weathered crimson brick, sage green grass) for modern archaeological contemplative ruins."
+  },
+  "lighting_timeline": [
+    {
+      "stage": "opening",
+      "time_of_day": "early dawn",
+      "mood": "quiet curiosity and solemn historical emergence"
+    },
+    {
+      "stage": "body",
+      "time_of_day": "soft morning to warm afternoon",
+      "mood": "contemplative clarity, intellectual warmth and spiritual depth"
+    },
+    {
+      "stage": "ending",
+      "time_of_day": "golden hour to peaceful dusk",
+      "mood": "peaceful synthesis, profound release and luminous awakening"
+    }
+  ],
+  "camera_style": {
+    "lens": "35mm cinematic baseline for natural documentary perspective; 50mm or 85mm for intimate scholarly gestures and manuscript details; 24mm for expansive architectural vistas",
+    "movement_notes": "slow controlled dolly, restrained lateral tracking, gentle contemplative arcs, and locked-off static compositions; no frantic handheld motion, whip pans, or disorienting camera moves"
+  },
+  "negative_keywords": [
+    "watermark",
+    "text overlay",
+    "burned-in subtitles",
+    "logo",
+    "childish cartoon style",
+    "chibi proportions",
+    "oversized cartoon eyes",
+    "anime exaggeration",
+    "toy-like plastic CGI",
+    "flat 2D illustration",
+    "overly bright neon colors",
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "story_anchor": "A contemplative cinematic documentary journey exploring the ancient Buddhist monastery university of Nalanda in Magadha, India, from its ancient origins and Gupta-era golden age of intellectual freedom and rigorous scholastic debate, through the tragedy of historical destruction, to its archaeological awakening and the timeless Buddhist lesson of impermanence as an enduring light of inner wisdom.",
+  "characters": [
+    {
+      "name": "anonymous scholar monk",
+      "role": "generic Buddhist scholar-monk representing Nalanda student or international pilgrim",
+      "age_range": "25-35",
+      "appearance": "natural Asian/Indian facial proportions, shaved head, calm thoughtful eyes, dignified posture, generic appearance not modeled on any real person",
+      "outfit": "traditional ochre or saffron-red draped monastic robe with natural cloth folds, simple prayer beads, plain sandals, no logos or readable text",
+      "aliases": ["scholar monk", "pilgrim monk", "student monk", "monk"],
+      "era": "ancient Gupta-Pala era"
+    },
+    {
+      "name": "anonymous venerable elder",
+      "role": "senior teacher or abbot representing the gatekeepers and great masters of Nalanda",
+      "age_range": "65-75",
+      "appearance": "weathered dignified features, shaved head, compassionate yet piercing gaze, serene composed expression, generic appearance not modeled on any real person",
+      "outfit": "deep maroon and saffron tiered monastic kasaya robe with fine traditional stitching, wooden recitation beads, no modern insignia",
+      "aliases": ["venerable elder", "abbot", "master", "gatekeeper monk"],
+      "era": "ancient Gupta-Pala era"
+    },
+    {
+      "name": "anonymous field archaeologist",
+      "role": "modern field researcher documenting ancient brick ruins and artifacts",
+      "age_range": "35-50",
+      "appearance": "calm focused facial expression, natural dark hair, generic appearance not modeled on any real person",
+      "outfit": "neutral khaki field shirt, durable cotton trousers, dusty work boots, notebook and magnifying tool, no brand logos",
+      "aliases": ["archaeologist", "field archaeologist", "researcher"],
+      "era": "modern"
+    }
+  ],
+  "locations": [
+    {
+      "name": "ancient Nalanda red-brick monastery",
+      "description": "colossal ancient red-brick Buddhist university complex with multi-tiered viharas, square open courtyards surrounded by arched monastic cells, monumental stupas with sculpted niches, stone drainage channels, warm terracotta textures under soft sunlight, no modern electrical fixtures",
+      "aliases": ["Nalanda monastery", "Nalanda campus", "ancient university", "red-brick vihara"]
+    },
+    {
+      "name": "Dharmaganja library scriptorium",
+      "description": "soaring multi-story sacred manuscript repository tower with thick brick walls, narrow arched windows filtering golden sunbeams, rows of polished dark wood shelves holding bundles of Sanskrit palm-leaf manuscripts tied with cord, gentle drifting dust motes in serene atmospheric light",
+      "aliases": ["Dharmaganja library", "scriptorium", "manuscript library", "palm-leaf archive"]
+    },
+    {
+      "name": "ancient lecture hall and debate courtyard",
+      "description": "spacious open-air brick courtyard surrounded by colonnades, circular stone debate arena with central raised dias, concentric rows of seating, shaded by mature peepal trees, surrounded by manicured lotus pools and brick pathways",
+      "aliases": ["lecture hall", "debate courtyard", "debate arena"]
+    },
+    {
+      "name": "ruins of Nalanda at sunset",
+      "description": "sprawling archaeological ruins of ancient Nalanda, weathered red-brick walls and foundations overgrown with soft green moss and dry grass, dramatic shadows stretching across ancient courtyards under a deep amber and purple twilight sky, quiet contemplative atmosphere",
+      "aliases": ["Nalanda ruins", "archaeological site", "ruins at sunset"]
+    }
+  ],
+  "key_objects": [
+    {
+      "name": "Sanskrit palm-leaf manuscript",
+      "description": "ancient oblong palm-leaf manuscript bundle tied with braided silk cord, smoothed dried leaves with incised ancient Indian Brahmi or Devanagari script, natural aged ochre patina, wooden protective covers with subtle geometric carving",
+      "aliases": ["palm-leaf manuscript", "ancient scripture", "manuscript bundle"]
+    },
+    {
+      "name": "terracotta official seal",
+      "description": "small oval ancient terracotta clay seal with an embossed Dharmachakra wheel flanked by two reclining deer, weathered red clay texture with ancient Sanskrit inscription imprint, authentic archaeological artifact patina",
+      "aliases": ["terracotta seal", "clay seal", "monastic seal"]
+    },
+    {
+      "name": "bronze Buddha sculpture",
+      "description": "ancient cast-bronze sculpture of Buddha in the classic Pala style, seated in lotus posture with hands in dharmachakra mudra, gentle antique green-brown patina, fine jewelry casting details, serene meditative countenance",
+      "aliases": ["bronze Buddha", "Pala bronze statue", "bronze sculpture"]
+    }
+  ],
+  "visual_style": {
+    "aspect_ratio": "16:9",
+    "film_look": "35mm cinematic documentary visual storytelling, authentic historical textures, warm natural lighting, subtle film grain, physically grounded materials, no digital plastic glossiness",
+    "color_grading": "Palette A (terracotta red brick, saffron ochre, warm morning gold) for ancient campus and viharas; Palette B (deep shadow, glowing oil lamp amber, aged parchment) for library and study interiors; Palette C (weathered brick patina, muted green moss, deep sunset lavender and twilight gold) for ruins"
+  },
+  "lighting_timeline": [
+    {
+      "stage": "opening",
+      "time_of_day": "dawn to early morning",
+      "mood": "serene anticipation and historical grandeur"
+    },
+    {
+      "stage": "body",
+      "time_of_day": "soft daylight to warm afternoon",
+      "mood": "scholarly focus, intellectual vibrancy, deep spiritual discipline"
+    },
+    {
+      "stage": "climax",
+      "time_of_day": "dusk and stormy twilight",
+      "mood": "dramatic historical solemnity and impermanence"
+    },
+    {
+      "stage": "ending",
+      "time_of_day": "golden hour to twilight",
+      "mood": "quiet acceptance, timeless peace, and contemplative awakening"
+    }
+  ],
+  "camera_style": {
+    "lens": "35mm baseline for spatial context, 50mm for natural human interaction scale, 85mm for intimate manuscript and sculpture close-ups, 24mm wide angle only for grand architectural overviews",
+    "movement_notes": "slow deliberate dolly, steady tracking, gentle rising jib, calm tripod panning; never fast handheld, whip pans, or disorienting quick zooms"
+  },
+  "negative_keywords": [
+    "watermark",
+    "text overlay",
+    "burned-in subtitles",
+    "logo",
+    "childish cartoon style",
+    "chibi proportions",
+    "oversized cartoon eyes",
+    "anime exaggeration",
+    "toy-like plastic CGI",
+    "flat 2D illustration",
+    "overly bright neon colors",
+    "no real identifiable people",
+    "no celebrity likeness",
+    "no graphic violence",
+    "no gore",
+    "no nudity",
+    "no sexual content",
+    "no hate symbols",
+    "internal cuts",
+    "scene transitions",
+    "fades",
+    "dissolves",
+    "morph transitions",
+    "montage",
+    "time jumps",
+    "location changes",
+    "visual-domain changes"
+  ]
+}
