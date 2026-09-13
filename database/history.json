@@ -17,5 +17,24 @@
     "capcut_created": false,
     "capcut_created_at": null,
     "created_at": "2026-09-10T08:23:14.428+07:00"
+  },
+  {
+    "id": "61911049-cb1e-4f43-b29f-e1afbd3decb6",
+    "title": "Đại học Nalanda: Ngọn hải đăng tri thức cổ đại và di sản nghìn năm",
+    "folder": "dai-hoc-nalanda-ngon-hai-dang-tri-thuc-co-dai-va-di-san-nghin-nam",
+    "date": "2026-09-12T02:34:15.402212+07:00",
+    "type": "long",
+    "language": "vi",
+    "mode": "2",
+    "voiceStyle": "contemplative",
+    "aiModel": "agy",
+    "category": "buddhist_wisdom",
+    "last_hook_pattern": 3,
+    "main_video_content": "Khám phá lịch sử thăng trầm của Viện Đại học Phật giáo Nalanda tại bang Bihar (Ấn Độ) — trung tâm học thuật đỉnh cao tồn tại suốt tám thế kỷ với thư khố chín tầng Dharmaganja lưu giữ hàng vạn bản kinh lá bối cổ. Video phân tích quy trình khảo hạch nghiêm cẩn của các Môn thần Dvarapala, tinh thần tranh biện triết học tự do giữa các bộ phái, cùng hành trình vượt đèo tuyết Himalaya bảo tồn di sản của các dịch giả Tây Tạng trước biến cố hỏa hoạn thế kỷ 13.",
+    "youtube_status": "pending",
+    "youtube_video_id": null,
+    "capcut_created": false,
+    "capcut_created_at": null,
+    "created_at": "2026-09-12T02:34:15.402212+07:00"
   }
 ]

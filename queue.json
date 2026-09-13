@@ -17,7 +17,7 @@
     "outputFolder": "kinh-anapanasati-sutta-nghe-thuat-quan-niem-hoi-tho-trong-phat-giao-nguyen-thuy"
   },
   {
-    "topic": "[Tự động chọn chủ đề Phật giáo]",
+    "topic": "Đại học Nalanda: Ngọn hải đăng tri thức cổ đại và di sản nghìn năm",
     "videoType": "long",
     "mode": "2",
     "generationMethod": "auto",
@@ -25,10 +25,12 @@
     "voiceStyle": "contemplative",
     "aiModel": "agy",
     "id": "61911049-cb1e-4f43-b29f-e1afbd3decb6",
-    "status": "pending",
+    "status": "completed",
     "retryCount": 0,
-    "progress": 0,
+    "progress": 100,
     "createdAt": "2026-09-11T15:02:24.283+07:00",
-    "updatedAt": "2026-09-11T15:02:24.283+07:00"
+    "updatedAt": "2026-09-12T02:34:15.402212+07:00",
+    "category": "buddhist_wisdom",
+    "outputFolder": "dai-hoc-nalanda-ngon-hai-dang-tri-thuc-co-dai-va-di-san-nghin-nam"
   }
 ]

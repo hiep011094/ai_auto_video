@@ -375,13 +375,15 @@ def validate_ai_result(result, expected_scene_numbers):
             val = row.get(key)
             if isinstance(val, str):
                 try:
-                    val_f = float(val.strip().rstrip("%"))
-                    if val_f > 1.0:
-                        val_f = val_f / 100.0
-                    val = val_f
-                    row[key] = val
+                    val = float(val.strip().rstrip("%"))
                 except ValueError:
                     pass
+            if isinstance(val, (int, float)) and not isinstance(val, bool):
+                if 1.0 < val <= 10.0:
+                    val = val / 10.0
+                elif val > 10.0:
+                    val = val / 100.0
+                row[key] = val
             if not isinstance(val, (int, float)) or isinstance(val, bool) or not (0 <= val <= 1):
                 return False, f"scene {row.get('scene')} has invalid {key}"
     if seen != expected_scene_numbers:
