@@ -215,15 +215,17 @@ def validate_json_schemas(folder_path, agents_path):
             continue
         
         result = subprocess.run(
-            ["python3", str(agents_path / "tools" / "schema_validator.py"),
+            [sys.executable, "-X", "utf8", str(agents_path / "tools" / "schema_validator.py"),
              "--schema", str(schema_path),
              "--file", str(json_path)],
             capture_output=True,
-            text=True
+            text=True,
+            encoding="utf-8"
         )
         
         if result.returncode != 0:
-            error(f"{filename} failed schema validation:\n{result.stderr}")
+            err_msg = result.stderr.strip() if result.stderr else result.stdout.strip()
+            error(f"{filename} failed schema validation:\n{err_msg}")
             all_valid = False
         else:
             ok(f"{filename} passed schema validation")
@@ -237,15 +239,17 @@ def validate_json_schemas(folder_path, agents_path):
     chapter_schema = agents_path / "schemas" / "chapter.schema.json"
     for chapter_path in chapter_files:
         result = subprocess.run(
-            ["python3", str(agents_path / "tools" / "schema_validator.py"),
+            [sys.executable, "-X", "utf8", str(agents_path / "tools" / "schema_validator.py"),
              "--schema", str(chapter_schema),
              "--file", str(chapter_path)],
             capture_output=True,
-            text=True
+            text=True,
+            encoding="utf-8"
         )
         
         if result.returncode != 0:
-            error(f"{chapter_path.name} failed schema validation:\n{result.stderr}")
+            err_msg = result.stderr.strip() if result.stderr else result.stdout.strip()
+            error(f"{chapter_path.name} failed schema validation:\n{err_msg}")
             all_valid = False
         else:
             ok(f"{chapter_path.name} passed schema validation")
